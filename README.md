@@ -8,3 +8,7 @@ A redo of my original website but now done in NextJS and TailwindCSS. Will be ho
 - ReactJS
 - TailwindCSS
 - Vercel
+
+## Deployment
+
+- Deployed to Vercel at [https://edwardrees-website.vercel.com](https://edwardrees-website.vercel.com)

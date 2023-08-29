@@ -27,27 +27,27 @@ const Navbar = () => {
                 <Link className="py-4 px-4" href="/">
                   Home
                 </Link>
-                <a className="py-4" href="#about">
+                <Link className="py-4" href="/#about">
                   About
-                </a>
-                <a className="py-4" href="#services">
+                </Link>
+                <Link className="py-4" href="/#services">
                   Services
-                </a>
-                <a href="#education" className="py-4">
+                </Link>
+                <Link href="/#education" className="py-4">
                   Education
-                </a>
-                <a className="py-4" href="#experience">
+                </Link>
+                <Link className="py-4" href="/#experience">
                   Experience
-                </a>
-                <a className="py-4" href="#skills">
+                </Link>
+                <Link className="py-4" href="/#skills">
                   Skills
-                </a>
-                <a className="py-4" href="#projects">
+                </Link>
+                <Link className="py-4" href="/#projects">
                   Projects
-                </a>
-                <a href="#support" className="py-4 text-center">
+                </Link>
+                <Link href="/#support" className="py-4 text-center">
                   Support my Friends and Family
-                </a>
+                </Link>
               </div>
             </NavigationMenuContent>
           </NavigationMenuItem>

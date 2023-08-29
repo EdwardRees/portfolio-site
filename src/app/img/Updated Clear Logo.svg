@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4267 4267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(2.08333,0,0,2.08333,0,0)">
+        <g transform="matrix(1,0,0,1,10.5881,62.4341)">
+            <g id="Layer2" transform="matrix(1,0,0,1,0.963195,-39.7524)">
+                <g transform="matrix(1.1337,0,0,1.04246,-216.845,-120.435)">
+                    <path d="M1806.2,624.905C1806.2,538.779 1741.9,468.857 1662.71,468.857L497.81,468.857C418.616,468.857 354.321,538.779 354.321,624.905L354.321,1353.13C354.321,1439.25 418.616,1509.18 497.81,1509.18L1662.71,1509.18C1741.9,1509.18 1806.2,1439.25 1806.2,1353.13L1806.2,624.905Z" style="fill:none;stroke:white;stroke-width:64.28px;"/>
+                </g>
+                <g transform="matrix(1.04362,0,0,1,-82.0734,40.2274)">
+                    <rect x="941.168" y="1432.18" width="202.023" height="57.695" style="fill:rgb(255,242,243);stroke:white;stroke-width:68.49px;"/>
+                </g>
+                <g transform="matrix(1.07943,0,0,1.38673,-112.572,-550.862)">
+                    <rect x="261.758" y="1527.22" width="1540.26" height="3.963" style="fill:white;stroke:white;stroke-width:56.33px;"/>
+                </g>
+            </g>
+            <g id="Cap-w--Text" serif:id="Cap w/ Text" transform="matrix(1.08289,0,0,1.08289,-66.2225,-152.995)">
+                <g transform="matrix(1,0,0,1,183.305,58.8244)">
+                    <text x="1256.32px" y="974.255px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:430px;fill:white;stroke:white;stroke-width:0.92px;stroke-linecap:butt;stroke-miterlimit:1.41421;">}</text>
+                </g>
+                <g transform="matrix(3.30699,0,0,3.30699,-1490.73,-1716.36)">
+                    <text x="581.156px" y="831.618px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:130px;fill:white;stroke:white;stroke-width:0.28px;stroke-linecap:butt;stroke-miterlimit:1.41421;">{</text>
+                </g>
+                <g id="GradCap">
+                    <g transform="matrix(1.17859,0,0,1.17859,-188.324,-106.405)">
+                        <g transform="matrix(0.783524,0,0,0.764445,195.868,268.432)">
+                            <path d="M1039.07,595.4L1345.55,715.295L1039.07,835.191L732.588,715.295L1039.07,595.4Z" style="fill:rgb(240,240,240);stroke:white;stroke-width:0.4px;"/>
+                        </g>
+                        <g transform="matrix(0.783524,0,0,0.886985,205.08,4.63169)">
+                            <rect x="1324.48" y="916.485" width="5.352" height="153.834" style="fill:rgb(242,242,242);"/>
+                        </g>
+                        <g transform="matrix(0.783524,0,0,0.783524,203.378,161.238)">
+                            <path d="M857.181,897.893L857.181,1034.12L1027.05,1097.74L1197.79,1034.12L1197.79,897.893L1027.05,962.802L857.181,897.893Z" style="fill:rgb(240,240,240);stroke:white;stroke-width:0.4px;"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(1.08959,0,0,0.97019,-184.617,33.1497)">
+                        <path d="M1343.1,986.79L1356.11,1025.96L1343.1,1065.13L1330.09,1025.96L1343.1,986.79Z" style="fill:rgb(240,240,240);stroke:white;stroke-width:0.36px;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

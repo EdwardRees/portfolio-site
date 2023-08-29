@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: edward-website
+    ports:
+      - '3050:3000'
+    volumes:
+      - .:/app
+      - /app/node_modules
