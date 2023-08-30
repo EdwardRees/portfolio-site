@@ -204,7 +204,7 @@ export default function Home() {
           </div>
         </Section>
         <Section title="Experience" id="experience">
-          <div className="grid md:grid-cols-4 xs:grid-cols-2 gap-4 px-3 py-3">
+          <div className="grid lg:grid-cols md:grid-cols-4 xs:grid-cols-2 sm:grid-cols-2 gap-4 px-3 py-3">
             <Experience
               title="General Manager"
               job="The Coder School"
