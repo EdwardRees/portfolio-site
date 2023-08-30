@@ -1,8 +1,7 @@
-import { Navbar, Section, Service } from "@/components/";
+import { Navbar, Section, Service, Education } from "@/components/";
 import Image from "next/image";
 import portfolio from "./img/portfolio.png";
 import {
-  faList,
   faMobile,
   faGraduationCap,
   faListAlt,
@@ -112,7 +111,7 @@ export default function Home() {
           </div>
         </Section>
         <Section title="What can I do?" id="services">
-          <div className="flex flex-row justify-around w-full px-3 py-3">
+          <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-4 py-3 px-3">
             <Service
               title="Web Development"
               icon={faListAlt}
@@ -137,6 +136,69 @@ export default function Home() {
               desc="I can teach HTML5, CSS3, JavaScript, TypeScript, Python, Java, C, and C#. It
               depends on what you want to do. I can help you understand
               any of the programming languages I have experience with."
+            />
+          </div>
+        </Section>
+        <Section title="Education" id="education" primary>
+          <div className="grid md:grid-cols-2 xs:grid-cols-1 gap-4 px-3 py-3">
+            <Education
+              degree="Masters of Arts in Teaching"
+              school="University of San Francisco"
+              year="May 2023"
+              gpa="4.0"
+              location="San Francisco, CA"
+              courses={[
+                "Learning and Teaching",
+                "Education for Exceptional Children",
+                "Education for Bilingual Children: Theory and Practice",
+                "Teaching for Diversity and Social Justice",
+                "Health Education",
+                "Teaching, Learning, and Technology",
+                "Single Subject Curriculum & Instruction: Math/Science I",
+                "Single Subject Curriculum & Instruction: Math/Science II",
+                "Teaching Adolescents",
+                "Academic Literacy",
+                "Single Subject Student Teaching I",
+                "Curriculum Currents and Controversy",
+                "Single Subject Student Teaching II",
+                "Single Subject Student Teaching III",
+                "Curriculum Development",
+              ]}
+            />
+            <Education
+              degree="Bachelors of Science in Computer Science"
+              school="University of San Francisco"
+              year="May 2022"
+              gpa="3.82"
+              location="San Francisco, CA"
+              other={new Map<string, string>()
+                .set("Minor", "Psychology")
+                .set("Graduation Honors", "Magna Cum Laude")
+                .set(
+                  "MAT Dual Degree",
+                  "Did a 4+1 with the Dual Degree MAT Program."
+                )}
+              courses={[
+                "Introduction to Computer Science I",
+                "Introduction to Computer Science II",
+                "Introduction to C and Systems Programming",
+                "Data Structures and Algorithms",
+                "Software Development",
+                "Computer Architecture",
+                "Operating Systems",
+                "Programming Language Paradigms",
+                "Introduction to Database Systems",
+                "Senior Team Project",
+
+                "Calculus and Analytic Geometry I",
+                "Discrete Mathematics",
+                "Linear Algebra & Probability",
+
+                "Social Psychology",
+                "Biological Psychology",
+                "Abnormal Psychology",
+                "Theories of Personality",
+              ]}
             />
           </div>
         </Section>

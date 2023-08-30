@@ -11,7 +11,7 @@ type ServiceProps = {
 const Service = ({ title, icon, desc, size }: ServiceProps) => {
   return (
     <div className="flex flex-col items-center justify-center text-center">
-      <div className="w-12 h-full">
+      <div className="w-12">
         <FontAwesomeIcon icon={icon} size={size as SizeProp} />
       </div>
       <p className="text-2xl">{title}</p>
