@@ -95,10 +95,10 @@ const Experience = ({
                             <p className="text-xl pr-4">{key}</p>
                           </AccordionTrigger>
                           <AccordionContent>
-                            <ul className="flex flex-col items-center justify-center text-center">
+                            <ul className="flex flex-col">
                               {value.map((duty: string) => (
                                 <li key={duty} className="text-md">
-                                  {duty}
+                                  - {duty}
                                 </li>
                               ))}
                             </ul>
