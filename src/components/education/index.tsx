@@ -38,13 +38,13 @@ const Education = ({
           <p className="text-xl text-center">{school}</p>
         </div>
       </DialogTrigger>
-        <DialogContent>
-      <ScrollArea className="h-full w-full">
-          <DialogTitle>
-            <p className="text-2xl">
-              {school} - {degree}
-            </p>
-          </DialogTitle>
+      <DialogContent>
+        <DialogTitle>
+          <p className="text-2xl">
+            {school} - {degree}
+          </p>
+        </DialogTitle>
+        <ScrollArea className="h-96 w-full">
           <div className="flex flex-col items-center justify-center text-center">
             <p className="text-2xl">{year}</p>
             <br />
@@ -76,8 +76,8 @@ const Education = ({
               ))}
             </ul>
           </div>
-      </ScrollArea>
-        </DialogContent>
+        </ScrollArea>
+      </DialogContent>
     </Dialog>
   );
 };

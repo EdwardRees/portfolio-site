@@ -1,4 +1,4 @@
-import { Navbar, Section, Service, Education } from "@/components/";
+import { Navbar, Section, Service, Education, Experience } from "@/components/";
 import Image from "next/image";
 import portfolio from "./img/portfolio.png";
 import {
@@ -6,6 +6,7 @@ import {
   faGraduationCap,
   faListAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import { ExperienceType } from "@/lib/experience-types";
 export default function Home() {
   return (
     <>
@@ -199,6 +200,37 @@ export default function Home() {
                 "Abnormal Psychology",
                 "Theories of Personality",
               ]}
+            />
+          </div>
+        </Section>
+        <Section title="Experience" id="experience">
+          <div className="grid md:grid-cols-4 xs:grid-cols-2 gap-4 px-3 py-3">
+            <Experience
+              title="General Manager"
+              job="The Coder School"
+              location="San Francisco, CA"
+              type={ExperienceType.MANAGEMENT}
+              period="May 2023-Present"
+              duties={[
+                "Managed schedules of 9 coaches and 40 students",
+                "Managed the day-to-day operations of the school",
+                "Trained coding coaches in various teaching methods",
+              ]}
+              link="https://www.thecoderschool.com/sanfrancisco/"
+            />
+            <Experience title="Student Teacher"
+            job="George Washington High School"
+            location="San Francisco, CA"
+            type={ExperienceType.TEACHING}
+            period="Aug 2022-Jun 2023"
+            duties={[
+              "Taught and led an Algebra 1 class with 24 students",
+              "Participated in Small Curriculum team planning meetings providing feedback from a student teacher perspective, along with the perspective of an international student who grew up with a different system",
+              "Provided additional tutoring for students who requested more support during lunch and advisory",
+              "Graded assignments",
+              "Created rubrics and reverse rubrics to assist grading assignments"
+            ]}
+            link="https://gwhs.sfusd.edu"
             />
           </div>
         </Section>
