@@ -11,6 +11,10 @@ import {
   DialogContent,
   DialogTitle,
   ScrollArea,
+  Accordion,
+  AccordionTrigger,
+  AccordionContent,
+  AccordionItem,
 } from "@/components/ui";
 
 import { ExperienceType } from "@/lib/experience-types";
@@ -77,23 +81,42 @@ const Experience = ({
             </p>
             <p className="text-xl">Duties:</p>
             <div className="flex flex-col items-center justify-center text-center">
-              {Array.isArray(duties) ? duties.map((duty: string) => (
-                <li key={duty} className="text-md">
-                  {duty}
-                </li>
-              )) : Array.from(duties).map(([key, value]: [key: string, value: string[]]) => (
-                <div key={key} className="flex flex-col items-center justify-center text-center">
-                  <p className="text-xl">{key}</p>
-                  <ul className="flex flex-col items-center justify-center text-center">
-                    {value.map((duty: string) => (
-                      <li key={duty} className="text-md">
-                        {duty}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))
-              }
+              {Array.isArray(duties)
+                ? duties.map((duty: string) => (
+                    <li key={duty} className="text-md">
+                      {duty}
+                    </li>
+                  ))
+                : Array.from(duties).map(
+                    ([key, value]: [key: string, value: string[]]) => (
+                      <Accordion key={key} type="single" collapsible>
+                        <AccordionItem value={key}>
+                          <AccordionTrigger>
+                            <p className="text-xl pr-4">{key}</p>
+                          </AccordionTrigger>
+                          <AccordionContent>
+                            <ul className="flex flex-col items-center justify-center text-center">
+                              {value.map((duty: string) => (
+                                <li key={duty} className="text-md">
+                                  {duty}
+                                </li>
+                              ))}
+                            </ul>
+                          </AccordionContent>
+                        </AccordionItem>
+                      </Accordion>
+                      // <div key={key} className="flex flex-col items-center justify-center text-center">
+                      //   <p className="text-xl">{key}</p>
+                      //   <ul className="flex flex-col items-center justify-center text-center">
+                      //     {value.map((duty: string) => (
+                      //       <li key={duty} className="text-md">
+                      //         {duty}
+                      //       </li>
+                      //     ))}
+                      //   </ul>
+                      // </div>
+                    )
+                  )}
             </div>
           </div>
         </ScrollArea>

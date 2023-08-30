@@ -317,6 +317,67 @@ export default function Home() {
                 "Provided support with lessons, keeping students focused and engaged",
               ]}
             />
+            <Experience
+              title="Computer Science Super Tutor"
+              job="University of San Francisco"
+              location="San Francisco, CA"
+              type={ExperienceType.TEACHING}
+              period="Sep 2020-Jan 2021"
+              link="https://tutoringcenter.cs.usfca.edu"
+              partTime
+              duties={[
+                "Tutored students in lower division undergraduate Computer Science classes",
+                "Tutored students in USF classes: CS110, CS112, CS272 (formerly CS212), CS221, and CS245",
+                "Taught students how to debug their code using various debuggers",
+              ]}
+            />
+            <Experience
+              title="Tutor and Mentor"
+              job="MAST Education"
+              location="Hong Kong"
+              type={ExperienceType.TEACHING}
+              period="Aug 2020-Aug 2021"
+              link="https://www.masteducation.com"
+              duties={[
+                "TUtored students in Mathematics and Computer Science",
+                "Mentored students applying to Universities",
+                "Taught elementary Mathematics to underprivileged students in Hong Kong",
+                "Taught basic English to underprivileged students in Hong Kong",
+              ]}
+            />
+            <Experience
+              title="Summer Intern"
+              job="Hong Kong International School"
+              location="Hong Kong"
+              type={ExperienceType.PROGRAMMING}
+              period="Jun 2021-Jul 2021"
+              link="https://www.hkis.edu.hk"
+              duties={new Map<string, string[]>()
+                .set("Tasks on Coda", [
+                  "Created a service to simplify and contain the previous system of keeping notes on meetings between Students, Counselors, and Teachers, transitioning the previous system form a 200+ sheet spreadsheet into a single system, with a cleaner means to view and access data",
+                  "Created a service to generate students names who haven't been met with yet to help ensure all students are met with",
+                  "Implemented a reminder/notification system to ensure students are checked in with",
+                  "Wrote a User Guide to explain how to use the service",
+                ])
+                .set("Tasks in Python", [
+                  "Using a Fuzzy string matching system, created a system to help filter through 10000 user addresses, removing duplicates and similar addresses, in order to find distinct addresses paired with individual users.",
+                  "Created a simple file mover that takes basic information form a User Interface, built with PySimpleGUI, to mass move files from a local directory into a Google Drive Directory",
+                  "Created an automated web scraper using Selenium and BeautifulSoup4, that logs in a user, then scrapes 150 pages in approximately 15 minutes to aid with yearly data processing.",
+                  "Created an automated web scraper using Selenium, that downloads a file, then parses the file, replacing empty values with NULL values, then updates an SQL Database, using mysql-connector-python.",
+                ])
+                .set("Tasks in JavaScript", [
+                  "Created an algorithm in Google AppScript that sends email out to students based on flags set with data coming from a spreadsheet, propagated by form entries",
+                  "Aforementioned algorithm created to keep track of the last row checked to fix a crashing issue of continuous data input, overcrowding the previous mail sending system",
+                ])
+                .set("Tasks in PowerSchool", [
+                  "Updated the school's main page with the new built-in PowerSchool search, combining the old services with newer updated services",
+                  "Created a Guardian search that searches for all guardians in a database based on the name, email, or phone number provided, with options for current or all students, along with selections for guardian type (Mother, Father, Guardian, etc)",
+                  "Created a Student search that searches for students in the database based on their first, preferred, or last name, with an additional filter for grade level",
+                  "Updated the student health page to include COVID related information - vaccinations, infection dates, etc - along with showing the information of infectious diseases and health concerns",
+                  "Created a Student test view that shows a chart showcasing the students' test results over a period of time and how they've grown over that period. Test view includes a filter to allow for toggling and showing specific tests, to allow the user to choose which test to view. Each chart is accompanied by a table showing the raw data to provide the user with different views.",
+                  "Created a guide to three new pages, explaining how to use the new search systems.",
+                ])}
+            />
           </div>
         </Section>
       </div>
