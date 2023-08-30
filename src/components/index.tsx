@@ -6,3 +6,4 @@ export * from './section-group';
 export * from './service';
 export * from './education';
 export * from './experience';
+export * from './experience-group';
