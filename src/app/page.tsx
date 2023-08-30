@@ -215,22 +215,107 @@ export default function Home() {
                 "Managed schedules of 9 coaches and 40 students",
                 "Managed the day-to-day operations of the school",
                 "Trained coding coaches in various teaching methods",
+                "Led three summer camps teaching Python and Thunkable",
               ]}
               link="https://www.thecoderschool.com/sanfrancisco/"
             />
-            <Experience title="Student Teacher"
-            job="George Washington High School"
-            location="San Francisco, CA"
-            type={ExperienceType.TEACHING}
-            period="Aug 2022-Jun 2023"
-            duties={[
-              "Taught and led an Algebra 1 class with 24 students",
-              "Participated in Small Curriculum team planning meetings providing feedback from a student teacher perspective, along with the perspective of an international student who grew up with a different system",
-              "Provided additional tutoring for students who requested more support during lunch and advisory",
-              "Graded assignments",
-              "Created rubrics and reverse rubrics to assist grading assignments"
-            ]}
-            link="https://gwhs.sfusd.edu"
+            <Experience
+              title="Student Teacher"
+              job="George Washington High School"
+              location="San Francisco, CA"
+              type={ExperienceType.TEACHING}
+              period="Aug 2022-Jun 2023"
+              duties={[
+                "Taught and led an Algebra 1 class with 24 students",
+                "Participated in Small Curriculum team planning meetings providing feedback from a student teacher perspective, along with the perspective of an international student who grew up with a different system",
+                "Provided additional tutoring for students who requested more support during lunch and advisory",
+                "Graded assignments",
+                "Created rubrics and reverse rubrics to assist grading assignments",
+              ]}
+              link="https://gwhs.sfusd.edu"
+            />
+            <Experience
+              title="Coding Coach"
+              job="The Coder School"
+              location="San Francisco, CA"
+              type={ExperienceType.TEACHING}
+              partTime
+              period="Sep 2019-Jun 2023"
+              link="https://www.thecoderschool.com/sanfrancisco"
+              duties={[
+                "Taught and led 1-1, 2-1, and classes with up to 10 students lessons on Scratch, Python, JavaScript, Java, C#, C++, HTML/CSS, and React Native",
+                "Helped a student develop a mobile application using React Native",
+                "Taught a student data structures in Python",
+                "Taught a student how to create an autocorrect system using Python and a Trie data structure",
+                "Taught a student full stack development using the PERN stack",
+                "Taught a student how to create a Graphical User Interface using C# and the .NET Framework",
+                "Taught Test Driven Development to various students",
+                "Led three summer camps teaching Python and basic web design",
+              ]}
+            />
+            <Experience
+              title="Technology Lead"
+              job="S Plus Group Limited"
+              location="Hong Kong"
+              type={ExperienceType.PROGRAMMING}
+              period="Oct 2015-Present"
+              link="https://www.splusgroup.com"
+              duties={[
+                "Designed, developed, and published the main website using HTML5, CSS3, Bootstrap, and Javascript utilizing GitHub Pages to host",
+                "Advised and managed technology throughout the office",
+                "Updated the website to use ReactJS as the primary library",
+              ]}
+              partTime
+            />
+            <Experience
+              title="Computer Science WebMaster"
+              job="University of San Francisco"
+              location="San Francisco, CA"
+              type={ExperienceType.PROGRAMMING}
+              period="Aug 2020-May 2023"
+              link="https://tutoringcenter.cs.usfca.edu"
+              duties={[
+                "Updated and maintained the website for the Computer Science tutors using HTML, CSS, and JavaScript",
+                "Updated and maintained the calendar for all Computer Science tutors using Google Calendar",
+              ]}
+            />
+            <Experience
+              title="Computer Science Teaching Assistant"
+              job="University of San Francisco"
+              location="San Francisco, CA"
+              type={ExperienceType.TEACHING}
+              period="Jan 2021-Dec 2022"
+              link="http://cs221v.cs.usfca.edu/fall22/"
+              duties={[
+                "Updated and maintained the website for the CS221 Introduction to C and Systems Programming Course at USF using HTML, CSS, and working with the command line to host the website",
+                "Graded Labs, Projects, and Assignments",
+                "Tutored students on topics of C",
+                "Updated autograders to behave as expected to simplify the job for future teacher assistants",
+              ]}
+            />
+            <Experience
+              title="Fieldwork Mentee"
+              job="Gateway High School"
+              location="San Francisco, CA"
+              type={ExperienceType.TEACHING}
+              period="Jan 2022-May 2022"
+              link="https://www.gatewaypublicschools.org/ghs"
+              duties={[
+                "Provided support with small group work in a 9th Grade Algebra Classroom",
+                "Led whole class activities including but not limited to Guided Note Taking, Group Discussions, Group Work, and preparation for a Socratic Seminar",
+              ]}
+            />
+            <Experience
+              title="Fieldwork Mentee"
+              job="Gateway Middle School"
+              location="San Francisco, CA"
+              type={ExperienceType.TEACHING}
+              period="Aug 2021-Dec 2021"
+              link="https://www.gatewaypublicschools.org/gms"
+              duties={[
+                "Provided support with small group work in a 7th Grade Mathematics classroom",
+                "Provided support with lessons, keeping students focused and engaged",
+              ]}
             />
           </div>
         </Section>
