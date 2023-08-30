@@ -75,7 +75,7 @@ const Experience = ({
             <p className="text-xl">{location}</p>
             <p className="text-xl">{partTime ? "Part Time" : "Full Time"}</p>
             <p className="text-md">
-              <a href={link} className="text-blue-500">
+              <a href={link} className="text-blue-500" target="_blank">
                 Link
               </a>
             </p>
