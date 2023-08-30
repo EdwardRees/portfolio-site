@@ -378,6 +378,69 @@ export default function Home() {
                   "Created a guide to three new pages, explaining how to use the new search systems.",
                 ])}
             />
+            <Experience
+              title="Summer Intern"
+              job="Kactus"
+              location="Hong Kong"
+              type={ExperienceType.PROGRAMMING}
+              period="Jun 2020-Jun 2020"
+              link="https://www.kactus.com.hk"
+              duties={[
+                "Assisted at creating a WordPress theme for a client",
+                "Used PHP, CSS, and JavaScript to create a WordPress theme and plugin to cater to the needs of the client",
+              ]}
+            />
+            <Experience
+              title="Technology Lead"
+              job="PBI Health"
+              location="Remote"
+              type={ExperienceType.PROGRAMMING}
+              period="Mar 2019-Dec 2019"
+              link="https://www.pbihealth.com"
+              duties={[
+                "Research on technology solutions",
+                "Migration of Email services",
+                "Advice regarding technology solutions",
+                "Using ReactJS, created the front-end website for their platform",
+              ]}
+            />
+            <Experience
+              title="Front-End Developer"
+              partTime
+              job="Share My Hub"
+              location="Remote"
+              type={ExperienceType.PROGRAMMING}
+              period="Apr 2018-Sep 2019"
+              duties={[
+                "Provide design and functioning advice",
+                "Using Vue.js, created the front-end website for their platform",
+              ]}
+              link="http://sharemyhub.com"
+            />
+            <Experience
+              title="Front-end Web Developer"
+              job="Chain Dimenxxion"
+              location="Remote"
+              type={ExperienceType.PROGRAMMING}
+              period="Jan 2019-Mar 2019"
+              duties={[
+                "Provide design and functioning advice",
+                "Using HTML5, CSS3, Bootstrap, and jQuery, created the front-end website for their platform.s",
+              ]}
+              link="https://www.chaindimenxxion.com"
+            />
+            <Experience
+              title="Event Staff"
+              partTime
+              link="https://www.afoodieworld.com"
+              job="Foodie Magazine"
+              location="Hong Kong"
+              type={ExperienceType.OTHER}
+              period="Sep 2015-Aug 2018"
+              duties={[
+                "Worked events including setting up and customer service",
+              ]}
+            />
           </div>
         </Section>
       </div>

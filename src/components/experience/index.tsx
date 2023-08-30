@@ -44,8 +44,8 @@ const Experience = ({
   return (
     <Dialog>
       <DialogTrigger>
-        <div className="flex flex-col items-center justify-center text-center">
-          <div className="w-12 h-full">
+        <div className="flex flex-col items-center justify-center text-center py-2">
+          <div className="w-12 pb-2">
             <FontAwesomeIcon
               icon={
                 type === ExperienceType.TEACHING
@@ -59,8 +59,8 @@ const Experience = ({
               size="3x"
             />
           </div>
-          <p className="text-2xl">{title}</p>
-          <p className="text-xl text-center">{job}</p>
+          <p className="text-xl">{title}</p>
+          <p className="text-md text-center">{job}</p>
         </div>
       </DialogTrigger>
       <DialogContent>
