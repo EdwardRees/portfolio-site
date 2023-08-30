@@ -1,12 +1,17 @@
-import { Navbar, Section, Service, Education, Experiences } from "@/components/";
-import Image from "next/image";
-import portfolio from "./img/portfolio.png";
 import {
-  faMobile,
+  Education,
+  Experiences,
+  Navbar,
+  Section,
+  Service,
+} from "@/components/";
+import {
   faGraduationCap,
   faListAlt,
+  faMobile,
 } from "@fortawesome/free-solid-svg-icons";
-import { ExperienceType } from "@/lib/experience-types";
+import Image from "next/image";
+import portfolio from "./img/portfolio.png";
 export default function Home() {
   return (
     <>
