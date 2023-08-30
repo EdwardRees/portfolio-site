@@ -1,6 +1,12 @@
-import { Navbar } from "@/components/navbar";
+import { Navbar, Section, Service } from "@/components/";
 import Image from "next/image";
 import portfolio from "./img/portfolio.png";
+import {
+  faList,
+  faMobile,
+  faGraduationCap,
+  faListAlt,
+} from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   return (
     <>
@@ -38,14 +44,7 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <div
-          className="flex flex-col items-center justify-center py-10 px-10"
-          id="about"
-        >
-          <div>
-            <p className="text-4xl text-center py-5 px-10">About Me</p>
-            <hr className="w-full pt-5" />
-          </div>
+        <Section title="About Me" id="about" primary>
           <div className="flex flex-col items-center justify-center text-center">
             <div>
               <p className="text-2xl">Who am I?</p>
@@ -111,7 +110,36 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </Section>
+        <Section title="What can I do?" id="services">
+          <div className="flex flex-row justify-around w-full px-3 py-3">
+            <Service
+              title="Web Development"
+              icon={faListAlt}
+              size="3x"
+              desc="I can help you create a website's front end using HTML, CSS, and JavaScript.Furthermore, I can help create a back end using NodeJS. Additional libraries for
+                  front end development include utilizing Bootstrap, Tailwindcss, React.js, and
+                  Vue.js."
+            />
+            <Service
+              title="App Development"
+              icon={faMobile}
+              size="sm"
+              desc="I can help you create a mobile application using React Native. Due to my limited
+              Native Android and iOS experience, I can only help you create applications using
+              React Native, but I can help guide you in the process of creating a mobile
+              application regardless of the language of choice."
+            />
+            <Service
+              size="3x"
+              title="Programming Tutor"
+              icon={faGraduationCap}
+              desc="I can teach HTML5, CSS3, JavaScript, TypeScript, Python, Java, C, and C#. It
+              depends on what you want to do. I can help you understand
+              any of the programming languages I have experience with."
+            />
+          </div>
+        </Section>
       </div>
     </>
   );
