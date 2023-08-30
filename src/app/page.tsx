@@ -111,7 +111,7 @@ export default function Home() {
           </div>
         </Section>
         <Section title="What can I do?" id="services">
-          <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-4 py-3 px-3">
+          <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-x-4 gap-y-8 py-3 px-3">
             <Service
               title="Web Development"
               icon={faListAlt}
