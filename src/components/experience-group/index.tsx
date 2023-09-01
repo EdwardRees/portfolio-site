@@ -28,7 +28,7 @@ const Experiences = () => {
     <>
       <div className="flex flex-row justify-center items-center">
         <Select onValueChange={(val: string) => handleFilter(val)}>
-          <SelectTrigger>
+          <SelectTrigger className="dark:bg-gray-100 bg-gray-800 dark:text-gray-800 text-gray-100">
             <SelectValue placeholder="Filter" />
           </SelectTrigger>
           <SelectContent>
