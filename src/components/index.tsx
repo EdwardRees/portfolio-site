@@ -7,3 +7,5 @@ export * from './service';
 export * from './education';
 export * from './experience';
 export * from './experience-group';
+export * from './language';
+export * from './languages-group';

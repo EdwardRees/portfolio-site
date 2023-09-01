@@ -4,6 +4,7 @@ import {
   Navbar,
   Section,
   Service,
+  Languages,
 } from "@/components/";
 import {
   faGraduationCap,
@@ -11,7 +12,7 @@ import {
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
-import portfolio from "./img/portfolio.png";
+import portfolio from "@/img/portfolio.png";
 export default function Home() {
   return (
     <>
@@ -210,6 +211,9 @@ export default function Home() {
         </Section>
         <Section title="Experience" id="experience">
           <Experiences />
+        </Section>
+        <Section title="Programming Languages" id="languages" primary>
+          <Languages />
         </Section>
       </div>
     </>

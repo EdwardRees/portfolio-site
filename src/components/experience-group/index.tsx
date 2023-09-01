@@ -292,7 +292,7 @@ const Experiences = () => {
           hidden={experienceFilter !== ExperienceFilterTypes.PROGRAMMING && experienceFilter !== ExperienceFilterTypes.ALL}
         />
         <Experience
-          title="Front-end Web Developer"
+          title="Front-End Web Developer"
           job="Chain Dimenxxion"
           location="Remote"
           type={ExperienceType.PROGRAMMING}

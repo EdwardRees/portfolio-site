@@ -76,11 +76,7 @@
 }
 
 .header-image {
-  /* display: table; */
-  /* position: relative; */
-  /* width: 100%; */
-  /* height: auto; */
-  background: url(./img/san-francisco-edited.png) no-repeat center center scroll;
+  background: url(../img/san-francisco-edited.png) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
