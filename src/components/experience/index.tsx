@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { cn } from "@/lib/utils";
 import {
   faUserTie,
   faChalkboardTeacher,
@@ -27,6 +28,7 @@ type ExperienceProps = {
   type: ExperienceType;
   duties: string[] | Map<string, string[]>;
   link: string;
+  hidden?: boolean;
 
   partTime?: boolean;
 };
@@ -40,11 +42,19 @@ const Experience = ({
   duties,
   link,
   partTime,
+  hidden,
 }: ExperienceProps) => {
+  if (hidden) {
+    return <></>;
+  }
   return (
     <Dialog>
       <DialogTrigger>
-        <div className="flex flex-col items-center justify-center text-center py-2">
+        <div
+          className={cn(
+            "flex flex-col items-center justify-center text-center py-2"
+          )}
+        >
           <div className="w-12 pb-2">
             <FontAwesomeIcon
               icon={

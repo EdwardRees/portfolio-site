@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
       <div className="mx-auto">
         <header className="header-image flex flex-col h-full">
-          <div className="py-36">
+          <div className="py-36 px-10">
             <div className="items-center justify-center flex">
               <Image
                 src={portfolio}
@@ -33,7 +33,7 @@ export default function Home() {
                 Edward Rees
               </h1>
             </div>
-            <h3 className="text-2xl text-center">
+            <h3 className="text-2xl text-center font-medium">
               Web Developer, App Developer, Programming Tutor, Drummer, Sailor,
               Educator, DevOps Trainee, and more...
             </h3>
