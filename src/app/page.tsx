@@ -5,14 +5,35 @@ import {
   Section,
   Service,
   Languages,
+  Project,
+  SupportingOther,
 } from "@/components/";
 import {
   faGraduationCap,
   faListAlt,
   faMobile,
+  faUser,
+  faHandHoldingHeart,
+  faBuilding,
+  faPaintBrush,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faTwitch,
+  faYoutube,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
 import portfolio from "@/img/portfolio.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import CollegeSelectorIcon from "@/img/projects/collegeselector.svg";
+import SPlusGroupIcon from "@/img/projects/S+GroupLimitedLogo.png";
+import LibraryIcon from "@/img/projects/library-website-logo.png";
+import ByteEducationIcon from "@/img/projects/ByteEducationLogo.svg";
+import CollegeCompanionIcon from "@/img/projects/CollegeCompanionLogo.svg";
+
 export default function Home() {
   return (
     <>
@@ -215,6 +236,154 @@ export default function Home() {
         <Section title="Programming Languages" id="languages" primary>
           <Languages />
         </Section>
+        <Section title="Projects" id="projects">
+          <div className="grid md:grid-cols-5 xs:grid-cols-2 gap-4 px-3 py-3 w-full">
+            <Project
+              name="College Selector"
+              icon={CollegeSelectorIcon}
+              desc="A mobile application that helps students find colleges that fit their needs. This used to be on the App Stores, but has been removed due to a lack of maintenance. This project has been ported and redeveloped in the College Companion project."
+              link="https://www.collegeselector.app"
+              tech={["React", "Firebase", "React Native", "Expo"]}
+            />
+
+            <Project
+              name="S Plus Group Website"
+              icon={SPlusGroupIcon}
+              desc="A website for a consultancy company."
+              link="https://www.splusgroup.net"
+              tech={["React", "HTML", "CSS", "JavaScript", "Firebase"]}
+            />
+
+            <Project
+              name="Library Website"
+              icon={LibraryIcon}
+              desc="My Masters capstone unit plan for an Introductory Computer Science course, developing a Library website as their culminating project."
+            />
+
+            <Project
+              name="Byte Education"
+              icon={ByteEducationIcon}
+              desc="A website and project designed to developing lesson plans and systems to teaching Computer Science."
+              link="https://www.byteeducation.com"
+              tech={["React", "HTML", "CSS", "JavaScript"]}
+            />
+
+            <Project
+              name="College Companion"
+              icon={CollegeCompanionIcon}
+              desc="A web application to support students through their University journey, from initially looking at Universities, to applying to Universities, to supporting their education with a built-in four year plan and gpa calculator."
+              link="https://www.collegecompanion.app"
+              tech={[
+                "React",
+                "Tailwind",
+                "Supabase",
+                "NextJS",
+                "Vercel",
+                "Docker",
+                "Redis",
+                "PostgreSQL",
+              ]}
+            />
+          </div>
+        </Section>
+        <Section title="Support My Friends & Family!" id="support" primary>
+          <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-4 ">
+            <SupportingOther
+              name="Hunter Macias"
+              desc="The personal portfolio for my friend Hunter who does a lot of work in JavaScript and Python."
+              icon={faUser}
+              link="https://huntermacias.io"
+              linkText="Hunter Macias"
+            />
+            <SupportingOther
+              name="Kevin Lynch"
+              desc="The personal portfolio for my friend Kevin who uploads his photography."
+              icon={faUser}
+              link="https://kevinlynch.com"
+              linkText="Kevin Lynch"
+            />
+            <SupportingOther
+              name="Shikaar Maharaj"
+              desc="The Twitch Stream page for my friend Shikaar who streams various games from time to time"
+              icon={faTwitch}
+              link="https://www.twitch.tv/sike_star"
+              linkText="Sike Star"
+            />
+            <SupportingOther
+              name="Cosima Lesca, Ekisha Basu, Angelica Cheng"
+              desc="A Charity started by three acquaintances of mine to help support the education of refugees."
+              icon={faHandHoldingHeart}
+              link="https://www.karingfrontiers.com"
+              linkText="Karing Frontiers"
+            />
+
+            <SupportingOther
+              name="Justin Kung"
+              desc="A startup founded by my cousin helping working individuals with their mental health and personal development"
+              icon={faBuilding}
+              link="https://www.everydayempathy.co"
+              linkText="Everyday Empathy"
+            />
+
+            <SupportingOther
+              name="Becky Tian"
+              desc="The Dance YouTube channel created by my friend Becky"
+              icon={faYoutube}
+              link="https://www.youtube.com/channel/UCiZL8osOSl1pBI6l6YpkkBw"
+              linkText="Youtube Channel"
+            />
+            <SupportingOther
+              name="Oliver Cheung"
+              desc="The Violin Cover Youtube Channel developed by my friend Oliver"
+              icon={faYoutube}
+              link="https://www.youtube.com/channel/UC2yUajMnhUd0SbRG6LttLJA"
+              linkText="Youtube Channel"
+            />
+            <SupportingOther
+              name="Amanda Cheung"
+              desc="The personal artwork portfolio for my acquaintance Amanda"
+              icon={faPaintBrush}
+              link="https://www.mandydraws.com"
+              linkText="Mandy Draws"
+            />
+            <SupportingOther
+              name="Zenith Chan"
+              desc="The personal artwork shop for my acquaintance Zenith"
+              icon={faPaintBrush}
+              link="https://www.jarofrubies.com"
+              linkText="Jar of Rubies"
+            />
+          </div>
+        </Section>
+        <Section title="Schedule" id="schedule">
+          <p>Schedule a time with me!</p>
+        </Section>
+        <section
+          className="flex flex-col items-center justify-center py-10 px-10 bg-sky-100 dark:bg-sky-950 text-center"
+          id="links"
+        >
+          <div>
+            <p className="font-semibold text-xl">Edward Rees</p>
+            <br />
+            <div className="flex flex-row justify-center align-middle">
+              <FontAwesomeIcon icon={faEnvelope} size="1x" className="pr-5" />
+              <a href="mailto:info@edwardrees.info?subject=Inquiry%20from%20edwardrees.info">
+                info@edwardrees.info
+              </a>
+            </div>
+            <br />
+            <div className="flex flex-row justify-around">
+              <a href="https://www.linkedin.com/edwardrees5" target="_blank">
+                <FontAwesomeIcon icon={faLinkedin} size="3x" />
+              </a>
+              <a href="https://www.github.com/EdwardRees" target="_blank">
+                <FontAwesomeIcon icon={faGithub} size="3x" />
+              </a>
+            </div>
+            <br />
+            <p>Copyright &copy; Edward Rees 2023</p>
+          </div>
+        </section>
       </div>
     </>
   );

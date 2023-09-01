@@ -45,19 +45,19 @@ const enum LanguageFilterType {
   FRAMEWORK = "framework",
   MOBILE = "mobile",
   BACKEND = "backend",
-  OPERATING_SYSTEM = "operating-system"
+  OPERATING_SYSTEM = "operating-system",
 }
 
 const Group = ({
   title,
   children,
   hidden,
-  className
+  className,
 }: {
   title: string;
   children: React.ReactNode;
   hidden?: boolean;
-  className?: string
+  className?: string;
 }) => {
   if (hidden) {
     return <></>;
@@ -65,7 +65,12 @@ const Group = ({
   return (
     <div className="flex flex-col text-center w-full justify-center">
       <div className="text-2xl font-semibold">{title}</div>
-      <div className={cn("grid lg:grid-cols-auto md:grid-cols-4 xs:grid-cols-2 sm:grid-cols-2 gap-4", className)}>
+      <div
+        className={cn(
+          "grid lg:grid-cols-auto md:grid-cols-4 xs:grid-cols-2 sm:grid-cols-2 gap-4",
+          className
+        )}
+      >
         {children}
       </div>
       <br />
