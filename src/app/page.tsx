@@ -129,7 +129,7 @@ export default function Home() {
             <Service
               title="App Development"
               icon={faMobile}
-              size="sm"
+              size="3x"
               desc="I can help you create a mobile application using React Native. Due to my limited
               Native Android and iOS experience, I can only help you create applications using
               React Native, but I can help guide you in the process of creating a mobile
