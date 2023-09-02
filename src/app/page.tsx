@@ -355,11 +355,11 @@ export default function Home() {
             />
           </div>
         </Section>
-        <Section title="Schedule" id="schedule">
+        {/* <Section title="Schedule" id="schedule">
           <p>Schedule a time with me!</p>
-        </Section>
+        </Section> */}
         <section
-          className="flex flex-col items-center justify-center py-10 px-10 bg-sky-100 dark:bg-sky-950 text-center"
+          className="flex flex-col items-center justify-center py-10 px-10 bg-cyan-100 dark:bg-cyan-950 text-center"
           id="links"
         >
           <div>
