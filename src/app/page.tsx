@@ -365,9 +365,9 @@ export default function Home() {
           <div>
             <p className="font-semibold text-xl">Edward Rees</p>
             <br />
-            <div className="flex flex-row justify-center align-middle">
-              <FontAwesomeIcon icon={faEnvelope} size="1x" className="pr-5" />
-              <a href="mailto:info@edwardrees.info?subject=Inquiry%20from%20edwardrees.info">
+            <div className="flex flex-row justify-center items-center">
+              <FontAwesomeIcon icon={faEnvelope} size="1x" className="pr-2" />
+              <a href="mailto:info@edwardrees.info?subject=Inquiry%20from%20edwardrees.info" className="">
                 info@edwardrees.info
               </a>
             </div>
