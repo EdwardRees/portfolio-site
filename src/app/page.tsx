@@ -57,7 +57,7 @@ export default function Home() {
             </div>
             <h3 className="text-2xl text-center font-medium">
               Web Developer, App Developer, Programming Tutor, Drummer, Sailor,
-              Educator, DevOps Trainee, and more...
+              Educator, DevOps Trainee, System Architect, and more...
             </h3>
             <br />
 
@@ -109,21 +109,24 @@ export default function Home() {
                   College Selector
                 </a>
                 . In the summer of 2018, I learned basic TypeScript, the
-                JavaScript framework named Vue.js, played around with PHP and
+                JavaScript library named Vue.js, played around with PHP and
                 Kotlin.
                 <br />
-                I&#39;ve taught and tutored Web Design, Python, Java, and C# to
+                I&#39;ve taught and tutored Web Design, Python, Java, JavaScript, and C# to
                 students varying in ages. During my Undergraduate years, I
                 served as a Teacher&#39;s Assistant to our Introduction to C and
                 Systems course, tutoring and helping University students
                 increase their understanding of the C programming language.
                 <br />
                 Asides from tutoring and teaching, I&#39;ve been deepening my
-                own understanding of C++ and various Web technologies. I&#39;ve
+                own understanding of C++ and Rust and various Web technologies. I&#39;ve
                 also begun exploring the DevOps space with using more Cloud
                 Services and a VPC. Additionally, I&#39;ve begun working with
                 more Docker Containers and Virtual Machines to gain a stronger
-                understanding of the operations side of DevOps.
+                understanding of the operations side of DevOps. On top of that, I&#39;ve 
+                been designing the system for a startup that I&#39;m working on with a
+                couple friends of mine. The system uses microservices, Docker, and Kubernetes 
+                to create a scalable and reliable system. In doing so, I&#39;m learning more about Docker, Kubernetes, and more DevOps tools to help me support the startup.
                 <br />
                 In terms of teaching and pursuing education and becoming a
                 teacher, I&#39;ve often been asked why I made this decision.
@@ -134,6 +137,8 @@ export default function Home() {
                 Science and programming, or on the flip side, helping others
                 understand why programming may not be for them or why they
                 don&#39;t enjoy it so much.
+                <br />
+                I am now an adjunct professor at the University of San Francisco teaching Introductory Computer Science courses.
               </p>
             </div>
           </div>

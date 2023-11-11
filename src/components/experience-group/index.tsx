@@ -51,10 +51,12 @@ const Experiences = () => {
           type={ExperienceType.MANAGEMENT}
           period="May 2023-Present"
           duties={[
-            "Managed schedules of 9 coaches and 40 students",
+            "Managed schedules of 13 coaches and 80+ students",
             "Managed the day-to-day operations of the school",
             "Trained coding coaches in various teaching methods",
             "Led three summer camps teaching Python and Thunkable",
+            "Coached a student through developing a Desktop Application using Python for the Congressional App Challenge",
+            "Taught after school classes of Scratch and Python with students aged 7-14"
           ]}
           link="https://www.thecoderschool.com/sanfrancisco/"
           hidden={

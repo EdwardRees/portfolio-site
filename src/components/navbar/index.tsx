@@ -1,12 +1,9 @@
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
+  NavigationMenuTrigger
 } from "@/components/ui";
 
 import Link from "next/link";
