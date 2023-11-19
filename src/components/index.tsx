@@ -11,3 +11,4 @@ export * from './language';
 export * from './languages-group';
 export * from './project';
 export * from './others-support';
+export * from './form';
