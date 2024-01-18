@@ -150,8 +150,8 @@ export default function Home() {
               title="Web Development"
               icon={faListAlt}
               size="3x"
-              desc="I can help you create a website's front end using HTML, CSS, and JavaScript.Furthermore, I can help create a back end using NodeJS. Additional libraries for
-                  front end development include utilizing Bootstrap, Tailwindcss, React.js, and
+              desc="I can help you create a website's front end using HTML, CSS, and JavaScript. Furthermore, I can help create a back end using NodeJS, Bun, or Rust. Additional libraries for
+                  front end development include utilizing Bootstrap, Tailwindcss, React.js, NextJS, and
                   Vue.js."
             />
             <Service
@@ -362,14 +362,15 @@ export default function Home() {
             />
           </div>
         </Section>
+        {/*
         <Section title="Contact Me" id="contact">
           <Form />
-        </Section>
+        </Section>*/}
         {/* <Section title="Schedule" id="schedule">
           <p>Schedule a time with me!</p>
         </Section> */}
         <section
-          className="flex flex-col items-center justify-center py-10 px-10 bg-sky-100 dark:bg-sky-950 text-center"
+          className="flex flex-col items-center justify-center py-10 px-10 bg-cyan-100 dark:bg-cyan-950 text-center"
           id="links"
         >
           <div>
@@ -391,7 +392,7 @@ export default function Home() {
               </a>
             </div>
             <br />
-            <p>Copyright &copy; Edward Rees 2023</p>
+            <p>Copyright &copy; Edward Rees 2024</p>
           </div>
         </section>
       </div>

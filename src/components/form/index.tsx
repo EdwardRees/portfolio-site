@@ -34,7 +34,8 @@ const Form = () => {
         }
       },
     };
-    axios
+    console.info(data);
+    axios // TODO fix this axios call.
       .post("https://edwardrees.atlassian.net/rest/api/3/issue/", data, {
         headers: {
           Authorization: `Basic ${process.env.JIRA_ACCOUNT}:${process.env.JIRA_AUTH}`,

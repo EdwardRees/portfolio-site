@@ -32,9 +32,11 @@ import android from "@/img/languages/android.png";
 import ios from "@/img/languages/ios.png";
 
 import express from "@/img/languages/express.png";
+import bun from '@/img/languages/bun.svg';
 import postgres from "@/img/languages/postgres.png";
 import prisma from "@/img/languages/prisma-icon-solo.png";
 import supabase from "@/img/languages/supabase.png";
+import mongodb from '@/img/languages/mongodb.png';
 
 import linux from "@/img/languages/linux.png";
 import windows from "@/img/languages/windows.png";
@@ -132,7 +134,7 @@ const Languages = () => {
           proficiency="85% Proficient"
           image={typescript}
         />
-        <Language title="C" proficiency="85% Proficient" image={c} />
+        <Language title="C" proficiency="65% Proficient" image={c} />
         <Language title="C#" proficiency="Learning" image={csharp} />
         <Language title="C++" proficiency="Learning" image={cpp} />
         <Language title="Rust" proficiency="Learning" image={rust} />
@@ -181,12 +183,18 @@ const Languages = () => {
           languageFilter !== LanguageFilterType.ALL &&
           languageFilter !== LanguageFilterType.BACKEND
         }
+        className="grid lg:grid-cols-3 md:grid-cols-3 xs:grid-cols-1 sm:grid-cols-1 gap-4"
       >
         <Language
           title="Express"
           proficiency="75% Proficient"
           image={express}
         />
+        <Language 
+          title="Bun"
+          proficiency="75% Proficient"
+          image={bun}
+          />
         <Language
           title="Supabase"
           proficiency="75% Proficient"
@@ -198,6 +206,7 @@ const Languages = () => {
           image={postgres}
         />
         <Language title="Prisma" proficiency="50% Proficient" image={prisma} />
+        <Language title="MongoDB" proficiency="50% Proficient" image={mongodb} />
       </Group>
       <Group
         title="Operating Systems"

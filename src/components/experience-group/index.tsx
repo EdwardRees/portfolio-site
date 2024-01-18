@@ -44,6 +44,21 @@ const Experiences = () => {
         </Select>
       </div>
       <div className="grid lg:grid-cols md:grid-cols-4 xs:grid-cols-2 sm:grid-cols-2 gap-4 px-3 py-3">
+      <Experience title="Adjunct Professor"
+      job="University of San Francisco"
+      location="San Francisco, CA"
+      type={ExperienceType.TEACHING}
+      partTime
+      period="Jan 2024-Present"
+      duties={[
+        "Planned and designed the curriculum for an Introductory Python course.",
+        "Developed lectures, labs, in-class exercises, and projects for an Introductory Python course."
+      ]}
+      link="https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science"
+      hidden={
+        experienceFilter !== ExperienceFilterTypes.TEACHING && experienceFilter !== ExperienceFilterTypes.ALL
+      }
+      />
         <Experience
           title="General Manager"
           job="The Coder School"
