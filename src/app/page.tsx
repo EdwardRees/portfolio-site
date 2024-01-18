@@ -7,6 +7,7 @@ import {
   Languages,
   Project,
   SupportingOther,
+  Form
 } from "@/components/";
 import {
   faGraduationCap,
@@ -149,8 +150,8 @@ export default function Home() {
               title="Web Development"
               icon={faListAlt}
               size="3x"
-              desc="I can help you create a website's front end using HTML, CSS, and JavaScript.Furthermore, I can help create a back end using NodeJS. Additional libraries for
-                  front end development include utilizing Bootstrap, Tailwindcss, React.js, and
+              desc="I can help you create a website's front end using HTML, CSS, and JavaScript. Furthermore, I can help create a back end using NodeJS, Bun, or Rust. Additional libraries for
+                  front end development include utilizing Bootstrap, Tailwindcss, React.js, NextJS, and
                   Vue.js."
             />
             <Service
@@ -291,6 +292,7 @@ export default function Home() {
             />
           </div>
         </Section>
+        
         <Section title="Support My Friends & Family!" id="support" primary>
           <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-4 ">
             <SupportingOther
@@ -360,6 +362,10 @@ export default function Home() {
             />
           </div>
         </Section>
+        {/*
+        <Section title="Contact Me" id="contact">
+          <Form />
+        </Section>*/}
         {/* <Section title="Schedule" id="schedule">
           <p>Schedule a time with me!</p>
         </Section> */}
@@ -386,7 +392,7 @@ export default function Home() {
               </a>
             </div>
             <br />
-            <p>Copyright &copy; Edward Rees 2023</p>
+            <p>Copyright &copy; Edward Rees 2024</p>
           </div>
         </section>
       </div>

@@ -1,0 +1,205 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
+  "id": "10000",
+  "self": "https://edwardrees.atlassian.net/rest/api/3/issue/10000",
+  "key": "WEB-1",
+  "fields": {
+    "statuscategorychangedate": "2023-11-19T12:25:06.687-0500",
+    "issuetype": {
+      "self": "https://edwardrees.atlassian.net/rest/api/3/issuetype/10001",
+      "id": "10001",
+      "description": "Tasks track small, distinct pieces of work.",
+      "iconUrl": "https://edwardrees.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+      "name": "Task",
+      "subtask": false,
+      "avatarId": 10318,
+      "entityId": "eacf8b83-c5ff-45fb-8662-60a5ae251582",
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "customfield_10030": null,
+    "project": {
+      "self": "https://edwardrees.atlassian.net/rest/api/3/project/10000",
+      "id": "10000",
+      "key": "WEB",
+      "name": "Web Project",
+      "projectTypeKey": "software",
+      "simplified": true,
+      "avatarUrls": {
+        "48x48": "https://edwardrees.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414",
+        "24x24": "https://edwardrees.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=small",
+        "16x16": "https://edwardrees.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=xsmall",
+        "32x32": "https://edwardrees.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=medium"
+      }
+    },
+    "customfield_10031": null,
+    "customfield_10032": null,
+    "fixVersions": [],
+    "customfield_10034": {
+      "self": "https://edwardrees.atlassian.net/rest/api/3/customFieldOption/10024",
+      "value": "Other",
+      "id": "10024"
+    },
+    "aggregatetimespent": null,
+    "customfield_10035": null,
+    "resolution": null,
+    "customfield_10036": null,
+    "customfield_10037": null,
+    "customfield_10027": null,
+    "customfield_10028": null,
+    "customfield_10029": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "issuerestriction": {
+      "issuerestrictions": {},
+      "shouldDisplay": true
+    },
+    "watches": {
+      "self": "https://edwardrees.atlassian.net/rest/api/3/issue/WEB-1/watchers",
+      "watchCount": 1,
+      "isWatching": true
+    },
+    "lastViewed": "2023-11-19T15:02:44.200-0500",
+    "created": "2023-11-19T12:25:06.181-0500",
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "customfield_10022": null,
+    "priority": {
+      "self": "https://edwardrees.atlassian.net/rest/api/3/priority/3",
+      "iconUrl": "https://edwardrees.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10023": null,
+    "customfield_10024": null,
+    "customfield_10025": null,
+    "customfield_10026": null,
+    "labels": [
+      "Development"
+    ],
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "The Parent Link is only available to Jira Premium users."
+      }
+    },
+    "customfield_10019": "0|hzzzzz:",
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": null,
+    "updated": "2023-11-19T14:42:44.389-0500",
+    "status": {
+      "self": "https://edwardrees.atlassian.net/rest/api/3/status/10000",
+      "description": "",
+      "iconUrl": "https://edwardrees.atlassian.net/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "https://edwardrees.atlassian.net/rest/api/3/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "components": [],
+    "timeoriginalestimate": null,
+    "description": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "Create a form to process new tickets. Ticket field should include things from the Ticketing System from before. ",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc",
+      "version": 1
+    },
+    "customfield_10010": null,
+    "customfield_10014": null,
+    "customfield_10015": null,
+    "timetracking": {},
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "security": null,
+    "customfield_10008": null,
+    "customfield_10009": null,
+    "aggregatetimeestimate": null,
+    "attachment": [],
+    "summary": "Integrate with personal website",
+    "creator": {
+      "self": "https://edwardrees.atlassian.net/rest/api/3/user?accountId=5eed54d770fb110aba5863e0",
+      "accountId": "5eed54d770fb110aba5863e0",
+      "emailAddress": "erees.hk@gmail.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b6550147223c81d43ba8d7aca766a3e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FER-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/b6550147223c81d43ba8d7aca766a3e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FER-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/b6550147223c81d43ba8d7aca766a3e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FER-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/b6550147223c81d43ba8d7aca766a3e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FER-1.png"
+      },
+      "displayName": "Edward Rees",
+      "active": true,
+      "timeZone": "America/Toronto",
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "https://edwardrees.atlassian.net/rest/api/3/user?accountId=5eed54d770fb110aba5863e0",
+      "accountId": "5eed54d770fb110aba5863e0",
+      "emailAddress": "erees.hk@gmail.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b6550147223c81d43ba8d7aca766a3e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FER-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/b6550147223c81d43ba8d7aca766a3e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FER-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/b6550147223c81d43ba8d7aca766a3e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FER-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/b6550147223c81d43ba8d7aca766a3e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FER-1.png"
+      },
+      "displayName": "Edward Rees",
+      "active": true,
+      "timeZone": "America/Toronto",
+      "accountType": "atlassian"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "comments": [],
+      "self": "https://edwardrees.atlassian.net/rest/api/3/issue/10000/comment",
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "votes": {
+      "self": "https://edwardrees.atlassian.net/rest/api/3/issue/WEB-1/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}
