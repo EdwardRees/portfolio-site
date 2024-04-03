@@ -52,7 +52,9 @@ const Experiences = () => {
       period="Jan 2024-Present"
       duties={[
         "Planned and designed the curriculum for an Introductory Python course.",
-        "Developed lectures, labs, in-class exercises, and projects for an Introductory Python course."
+        "Developed lectures, labs, in-class exercises, and projects for an Introductory Python course.",
+        "Taught an Introductory Python class of 25 students.",
+        "Implemented Project Based Learning principles to engage students to apply the concepts learned in class."
       ]}
       link="https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science"
       hidden={

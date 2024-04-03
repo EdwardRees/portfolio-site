@@ -243,7 +243,7 @@ export default function Home() {
           <Languages />
         </Section>
         <Section title="Projects" id="projects">
-          <div className="grid md:grid-cols-5 xs:grid-cols-2 gap-4 px-3 py-3 w-full">
+          <div className="grid md:grid-cols-3 xs:grid-cols-2 gap-4 px-2 py-3">
             <Project
               name="College Selector"
               icon={CollegeSelectorIcon}
