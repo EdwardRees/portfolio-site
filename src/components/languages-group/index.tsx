@@ -183,7 +183,7 @@ const Languages = () => {
           languageFilter !== LanguageFilterType.ALL &&
           languageFilter !== LanguageFilterType.BACKEND
         }
-        className="grid lg:grid-cols-3 md:grid-cols-3 xs:grid-cols-1 sm:grid-cols-1 gap-4"
+        className="grid lg:grid-cols-3 md:grid-cols-3 xs:grid-cols-2 sm:grid-cols-2 gap-4"
       >
         <Language
           title="Express"
