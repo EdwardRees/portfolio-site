@@ -52,7 +52,8 @@ const Experiences = () => {
       period="Jan 2024-Present"
       duties={[
         "Planned and designed the curriculum for an Introductory Python course.",
-        "Developed lectures, labs, in-class exercises, and projects for an Introductory Python course.",
+        "Developed lectures, quizzes, labs, in-class exercises, and projects for an Introductory Python course.",
+        "Held office hours to supplement and support student learning, by re-explaining concepts using various examples to clarify confusing ideas for different students.",
         "Taught an Introductory Python class of 25 students.",
         "Implemented Project Based Learning principles to engage students to apply the concepts learned in class."
       ]}
@@ -72,7 +73,7 @@ const Experiences = () => {
             "Managed the day-to-day operations of the school",
             "Trained coding coaches in various teaching methods",
             "Led three summer camps teaching Python and Thunkable",
-            "Coached a student through developing a Desktop Application using Python for the Congressional App Challenge",
+            "Coached a student through developing a Desktop Application on Tabacco Awareness using Python for the Congressional App Challenge. The student went on to win for California District 11 in 2023",
             "Taught after school classes of Scratch and Python with students aged 7-14"
           ]}
           link="https://www.thecoderschool.com/sanfrancisco/"

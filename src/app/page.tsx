@@ -18,6 +18,7 @@ import {
   faBuilding,
   faPaintBrush,
   faEnvelope,
+  faDiagramProject,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
@@ -57,8 +58,8 @@ export default function Home() {
               </h1>
             </div>
             <h3 className="text-2xl text-center font-medium">
-              Web Developer, App Developer, Programming Tutor, Drummer, Sailor,
-              Educator, DevOps Trainee, System Architect, and more...
+              Web Developer, Mobile Developer, Programming Tutor, Sailor,
+              Educator, DevOps Trainee, Solutions Architect, and more...
             </h3>
             <br />
 
@@ -78,16 +79,21 @@ export default function Home() {
               <p className="text-2xl">Who am I?</p>
               <br />
               <p className="text-center">
-                My name is Edward Rees. I recently graduated with my Masters of
-                Arts in Teaching with a preliminary Single Subject Credential in
-                Mathematics from the University of San Francisco. I graduated
-                with my Bachelors of Science in Computer Science, with a Minor
-                in Psychology in the Spring of 2022. I grew up in Hong Kong and
-                lived there for most of my life up until I moved to San
-                Francisco in 2018. When I&#39;m not programming or working,
-                I&#39;m usually drumming or, when I&#39;m in Hong Kong, sailing.
-                In my free time, I serve as a mentor and tutor people
-                programming.
+                My name is Edward Rees. I grew up in Hong Kong and lived there 
+                for most of my life up until I moved to San Francisco in 2018. 
+                I graduated in Spring 2022 with my Bachelors of Science in Computer 
+                Science with a Minor in Psychology. I was in the 4+1 Dual Degree 
+                Teaching Program at the University of San Francisco, which led me to 
+                graduating again in the Spring of 2023 with my Masters of Arts in 
+                Teaching with a preliminary Single Subject Credential in Mathematics.
+                I spent a year working before returning to the University of San Francisco 
+                to teach an Introductory Computer Science course in the Spring Semester 
+                of 2024, where I still am.<br />
+                When I&#39;m not programming or teaching, I&#39;m often lesson planning 
+                or developing my curriculum for current or future classes. Additionally, you 
+                may find me researching technology to learn and use in various projects.
+                When I&#39;m in Hong Kong, you may find me sailing instead. You may also find me 
+                tutoring people in programming. 
               </p>
             </div>
           </div>
@@ -120,7 +126,7 @@ export default function Home() {
                 increase their understanding of the C programming language.
                 <br />
                 Asides from tutoring and teaching, I&#39;ve been deepening my
-                own understanding of C++ and Rust and various Web technologies. I&#39;ve
+                own understanding of C++, Rust, Go, and various Web technologies. I&#39;ve
                 also begun exploring the DevOps space with using more Cloud
                 Services and a VPC. Additionally, I&#39;ve begun working with
                 more Docker Containers and Virtual Machines to gain a stronger
@@ -137,22 +143,22 @@ export default function Home() {
                 for education and helping others find their interest in Computer
                 Science and programming, or on the flip side, helping others
                 understand why programming may not be for them or why they
-                don&#39;t enjoy it so much.
+                don&#39;t enjoy it so much. I spent a year teaching Algebra at a High School in San Francisco, before transitioning to teaching Computer Science at the University of San Francisco.
                 <br />
-                I am now an adjunct professor at the University of San Francisco teaching Introductory Computer Science courses.
+                I am now an adjunct professor at the University of San Francisco teaching Introductory Computer Science courses. I have created the curriculum, developed the assignments: quizzes, in class exercises, labs, and projects, developed the lectures, and implemented Project Based Learning principles in my class. Additionally, I have focused on teaching the Application of concepts on top of the foundation, in order for students to gain a stronger conceptual understanding beyond a procedural understanding. 
               </p>
             </div>
           </div>
         </Section>
         <Section title="What can I do?" id="services">
-          <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-x-4 gap-y-8 py-3 px-3">
+          <div className="grid md:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-x-4 gap-y-8 py-3 px-3">
             <Service
               title="Web Development"
               icon={faListAlt}
               size="3x"
               desc="I can help you create a website's front end using HTML, CSS, and JavaScript. Furthermore, I can help create a back end using NodeJS, Bun, or Rust. Additional libraries for
-                  front end development include utilizing Bootstrap, Tailwindcss, React.js, NextJS, and
-                  Vue.js."
+              front end development include utilizing Bootstrap, Tailwindcss, React.js, NextJS, and
+              Vue.js."
             />
             <Service
               title="App Development"
@@ -170,6 +176,12 @@ export default function Home() {
               desc="I can teach HTML5, CSS3, JavaScript, TypeScript, Python, Java, C, and C#. It
               depends on what you want to do. I can help you understand
               any of the programming languages I have experience with."
+            />
+            <Service 
+              size="3x"
+              title="System Design"
+              icon={faDiagramProject}
+              desc="I can help design the backend system required for a given tech project. This includes suggesting the most ideal and optimum technology stack for a given product to reinforce stability and scalability in the future."
             />
           </div>
         </Section>
@@ -243,7 +255,7 @@ export default function Home() {
           <Languages />
         </Section>
         <Section title="Projects" id="projects">
-          <div className="grid md:grid-cols-3 xs:grid-cols-2 gap-4 px-2 py-3">
+          <div className="grid md:grid-cols-6 xs:grid-cols-2 gap-4 px-2 py-3">
             <Project
               name="College Selector"
               icon={CollegeSelectorIcon}
@@ -292,7 +304,7 @@ export default function Home() {
             />
           </div>
         </Section>
-        
+
         <Section title="Support My Friends & Family!" id="support" primary>
           <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-4 ">
             <SupportingOther
