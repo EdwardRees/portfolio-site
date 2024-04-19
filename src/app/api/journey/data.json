@@ -1,0 +1,845 @@
+{
+  "purpose": "Track my CS journey since the beginning in 2013. This may be an interactive timeline if I can figure out how to do that lol",
+  "timeline": {
+    "2013": {
+      "desc": "The True Beginning",
+      "courses": [],
+      "projects": [
+        {
+          "name": "First website for Genius Hour",
+          "link": "https://github.com/EdwardR5/EdwardRees.github.io/blob/master/static/ghp/original.html",
+          "desc": "The first website I ever wrote for Genius Hour in 8th Grade. It was an experience to see what coding actually looked and felt like. Granted this was the first time and before I was really technically literate, I didn't know how to host the website and ended up hosting it on my Computer locally. It was my introduction to HTML, CSS, basic JavaScript, the concept of Programming Languages, and how information is portrayed on the internet.",
+          "langauages": [
+            "HTML",
+            "CSS",
+            "JavaScript (basic)"
+          ]
+        }
+      ],
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript (basic)"
+      ],
+      "frameworks/libraries": [],
+      "hosting systems": []
+    },
+    "2014": {
+      "desc": "Playing around and trying out creating Mods for Minecraft",
+      "courses": [],
+      "projects": [
+        {
+          "name": "First Minecraft Mod",
+          "link": "https://themodbros.wixsite.com/themodbros/downloads",
+          "desc": "My first experience working with typed programming, following YouTube tutorials and MinecraftForum tutorials. These weren't only one mod, but contained multiple: An Overpowered Scepter, Vanilla Plus (adding more armors and tools to Vanilla Minecraft), and a Game Weapons mod (Skyrim, Infinity Blade, etc). It was really rudimentary coding and pretty cookie cutter, but definitely showed me how complicated programming can get.",
+          "languages": [
+            "Java (basic)"
+          ]
+        }
+      ],
+      "languages": [
+        "Java (basic)"
+      ],
+      "frameworks/libraries": [],
+      "hosting systems": []
+    },
+    "2015": {
+      "desc": "Early formation of Foundation; Weak foundation, but slowly forming",
+      "courses": [
+        "Introduction to Programming"
+      ],
+      "projects": [
+        {
+          "name": "Intro to Programming Project",
+          "link": "https://github.com/EdwardRees/IntroToProgrammingProject",
+          "desc": "This was the first project I did from a class. The course was basically learning Python using Codecademy. I don't think I learned anything in this class, but it showed me the power of Python and how simple it is to really code. The project read information from an iOS app providing information for a BalanceBoard. It allowed us to read when the BalanceBoard game was over. It would start a timer once the 'start' button was pressed. Once the z-axis hit a certain positive or negative value, it would stop the timer. This was a collaborative project with six students working on the project.",
+          "languages": [
+            "Python (basic)"
+          ]
+        }
+      ],
+      "languages": [
+        "Python (basic)"
+      ],
+      "frameworks/libraries": [],
+      "hosting systems": []
+    },
+    "2016": {
+      "desc": "Beginnings of early Web Design",
+      "courses": [],
+      "projects": [
+        {
+          "name": "S Plus Website",
+          "link": "https://github.com/EdwardRees/splusgroup.github.io",
+          "desc": "The first website that ended up being hosted online. This went deeper than the Genius Hour project and provided me with a proper introduction into web design. It was still really foundational, but also gave me something I could show off",
+          "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ]
+        }
+      ],
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "frameworks/libraries": [
+        "Bootstrap"
+      ],
+      "hosting systems": []
+    },
+    "2016-2017": {
+      "desc": "The true beginning; the real foundation forms",
+      "courses": [
+        "AP Computer Science A"
+      ],
+      "projects": [
+        {
+          "name": "Java College Selector",
+          "link": "https://github.com/EdwardRees/Java-College-Selector",
+          "desc": "A text-based version of the College Selector",
+          "languages": [
+            "Java"
+          ]
+        },
+        {
+          "name": "AP CS Review",
+          "link": "https://github.com/EdwardRees/CS-Test-Review",
+          "desc": "A simple Java program applying the concepts I was learning in AP Computer Science. It wasn't actually practical but it helped me study for the exam",
+          "languages": [
+            "Java"
+          ]
+        }
+      ],
+      "languages": [
+        "Java"
+      ],
+      "frameworks/libraries": [],
+      "hosting systems": []
+    },
+    "2017": {
+      "desc": "The first major project; Kick off my Computer Science Journey",
+      "courses": [],
+      "projects": [
+        {
+          "name": "College Selector App",
+          "link": "",
+          "desc": "The first official version of the College Selector created over the summer between Junior and Senior year of High School. It was a React Native application built to help students applying to University choose which University to apply to and to attend. It supported students with turning qualitative subjective data into a quantitative measurement that could allow for discussions around reasons to apply to a University",
+          "languages": [
+            "JavaScript",
+            "React Native",
+            "Firebase"
+          ]
+        }
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "frameworks/libraries": [
+        "React Native",
+        "Redux",
+        "Firebase"
+      ],
+      "hosting systems": []
+    },
+    "2018": {
+      "desc": "Start of University; Start of Formal Education in Computer Science",
+      "courses": [
+        "CS110: Introduction to Computer Science I"
+      ],
+      "projects": [
+        {
+          "name": "Personal Website (technically earlier, but let's say 2018",
+          "link": "https://github.com/EdwardR5/EdwardRees.github.io",
+          "desc": "Updated my personal portfolio website",
+          "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap"
+          ]
+        }
+      ],
+      "languages": [
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "frameworks/libraries": [
+        "Bootstrap"
+      ],
+      "hosting systems": [
+        "GitHub Pages"
+      ]
+    },
+    "2019": {
+      "desc": "Start of approach towards Education, with a focus on Computer Science Education",
+      "courses": [
+        "CS112: Introduction to Computer Science II",
+        "CS245: Data Structures and Algorithms",
+        "CS221: Introduction to C and Systems Programming"
+      ],
+      "projects": [
+        {
+          "name": "Programming Tutorials",
+          "link": "https://github.com/EdwardRees/programming-tutorials/tree/master",
+          "desc": "A website storing various programming tutorials, with a focus/emphasis on learning programming langauges. This was the start of approaching Computer Science with an Education and teaching angle.",
+          "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+          ]
+        },
+        {
+          "name": "ChainDimenxxion",
+          "link": "https://chaindimenxxion.com",
+          "desc": "The main website for the company ChainDimenxxion developed under a contract",
+          "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "PBIHealth",
+          "link": "https://pbihealth",
+          "desc": "The main website for the company PBIHealth develoepd under a contract",
+          "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+          ]
+        },
+        {
+          "name": "React Native Update Scripts",
+          "link": "https://github.com/EdwardRees/ReactNativeScripts",
+          "desc": "Scripts to update React Native information or to speed up the process of renaming information. This was mainly to make updating the College Selector easier and more streamlined.",
+          "languages": [
+            "Bash"
+          ]
+        },
+        {
+          "name": "Resume Generator",
+          "link": "https://github.com/EdwardRees/Resume-Generator",
+          "desc": "A Java program to help me generate and update my Resume",
+          "languages": [
+            "Java",
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Spell Checker",
+          "link": "https://github.com/EdwardRees/cs-245-assignment-01-EdwardR1",
+          "desc": "A simple spell checker written in Java for a Data Structures and Algorithms course. It reads a file containing English words, populating a Trie structure. It can take in a file and build suggestions off of the file, outputting a file with suggested words. It can also provide suggestions based on words inputted.",
+          "languages": [
+            "Java"
+          ]
+        },
+        {
+          "name": "Degrees of Separation",
+          "link": "https://github.com/EdwardRees/cs-245-assignment-02-EdwardR1",
+          "desc": "A graph created using information of movie stars, movies they've been in, and provides the degrees of separation between two movie stars. This was also created in Java for a Data Structures and Algorithms course",
+          "languages": [
+            "Java"
+          ]
+        },
+        {
+          "name": "myFlexi",
+          "link": "https://github.com/EdwardRees/myFlexi-Project",
+          "desc": "An attempt to convert a Swift iOS mobile application built for students at the University of San Francisco into a React Native cross platform mobile application.",
+          "langauges": [
+            "JavaScript",
+            "React Native",
+            "Expo"
+          ]
+        },
+        {
+          "name": "Japan Trip Transportation Graph",
+          "link": "https://github.com/EdwardRees/Japan-Trip-Transportation-Graph",
+          "desc": "A weighted graph developed in Java to help plan a trip to Japan with each Node being a location, each Vertex being a method of transportation, with each weight being the duration of time to take that method of transporation.",
+          "languages": [
+            "Java"
+          ]
+        }
+      ],
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "Bash",
+        "C"
+      ],
+      "frameworks/libraries": [
+        "React",
+        "React Native",
+        "Expo"
+      ],
+      "hosting systems": [
+        "Firebase",
+        "Heroku",
+        "GitHub Pages"
+      ]
+    },
+    "2020": {
+      "desc": "Beginnings of Byte Education; Project and CS heavy year",
+      "courses": [
+        "CS212: Software Development",
+        "CS326: Operating Systems"
+      ],
+      "projects": [
+        {
+          "name": "Dine n Dip (2019-2020)",
+          "link": "https://github.com/EdwardRees/Dine-n-Dip",
+          "desc": "A startup idea from 2019. This idea was a Restaurant Booking and Ordering system. Users have the ability to book a specific table in the restaurant. For example, they could choose a specific table or choose a type of table, such as a table with a view, or a table near the bathroom. Users would also be able to order their dish ahead of time.",
+          "languages": [
+            "JavaScript",
+            "Firebase",
+            "React"
+          ]
+        },
+        {
+          "name": "Covid19 Stats Viewer",
+          "link": "https://github.com/EdwardRees/Covid19StatisticsViewer",
+          "desc": "At the start of Covid-19, while in a Hotel Quarantine, I developed a simple Covid-19 statistic viewing website. It would provide information pulling from an open source API and present it into a simple React website.",
+          "languages": [
+            "React",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Python Logger",
+          "link": "https://github.com/EdwardRees/Python-Logger",
+          "desc": "A simple Python Logger using decorators to log information to the console.",
+          "languages": [
+            "Python"
+          ]
+        },
+        {
+          "name": "Unofficial We're Not Really Stranger App",
+          "link": "https://github.com/EdwardRees/Unofficial-We-re-Not-Really-Strangers-App",
+          "desc": "A mobile application hosted on Expo that originally stored card questiosn from the game We're Not Really Strangers. This was initially developed so that I could play it with friends without having to carry the deck of cards wherever I went.",
+          "languages": [
+            "React Native",
+            "Expo",
+            "TypeScript"
+          ]
+        },
+        {
+          "name": "Byte Education",
+          "link": "https://github.com/EdwardRees/programming-tutorials",
+          "desc": "The beginning of Byte Education. This was the evolution from Programming Tutorials to a more complicated project. Byte Education has become the main overarching name for my Educational projects as I can brand it under Byte Education. It also serves as the main organization for my GitHub Classroom assignments",
+          "languages": [
+            "React",
+            "Firebase"
+          ]
+        },
+        {
+          "name": "Fibonacci Generator",
+          "link": "https://github.com/EdwardRees/Fibonacci-Generator",
+          "desc": "My first fullstack simple project that generates the nth number in the Fibonacci sequence. It was also my first attempt at hosting on AWS EC2 with a Docker container to run the server.",
+          "languages": [
+            "JavaScript",
+            "React",
+            "NodeJS",
+            "ExpressJS",
+            "Docker",
+            "AWS EC2"
+          ]
+        },
+        {
+          "name": "Simple Gratitude Journal",
+          "link": "https://github.com/EdwardRees/Simple-Gratitude-Journal",
+          "desc": "A simple Gratitude Journal built in React Native, Expo, and sqlite. It stores Gratitude Journal entries, where the user can input at least 3, up to 5 things they're grateful for, along with a brief description of each thing. An additional Affirmation component was added that allows the User to store some affirmations for themselves.",
+          "languages": [
+            "React Native",
+            "Expo",
+            "sqlite"
+          ]
+        },
+        {
+          "name": "Custom Top Inspector",
+          "link": "https://github.com/EdwardRees/Custom-Top",
+          "desc": "An Arch Linux inspector, simulating the top command, written in C in an Operating Systems course.",
+          "languages": [
+            "C"
+          ]
+        },
+        {
+          "name": "Simple Games",
+          "link": "https://github.com/EdwardRees/Games",
+          "desc": "A set of simple text based games to develop when teaching various programming languages.",
+          "languages": [
+            "Python",
+            "Java",
+            "TypeScript"
+          ]
+        },
+        {
+          "name": "Morse Code Converter",
+          "link": "https://github.com/Byte-Education/Morse-Code-Converter",
+          "desc": "Originally a project developed with a student at the CoderSchool, this was a Python Morse Code Converter that parsed command-line arguments, read a file with morse code inside and returned an output file with the text. Additionally, it allowed for bidirectional translation, so upon reading a morse-string, it would return an English string. Upon reading an English string, it would return a morse-string. It also could read from user input and return based on the information provided by the user during the user input portion.",
+          "languages": [
+            "Python"
+          ]
+        },
+        {
+          "name": "Mathematical Functions",
+          "link": "https://github.com/Byte-Education/Mathematical-Functions",
+          "desc": "Originally a project developed in Python to simplify tutoring 6th Grade Mathematics at MAST Education, I updated it into functional code in Java and C. This was also done to demonstrate the differences in coding between Python, Java, and C with the general same functionality in all three forms, but with clear syntactic differences",
+          "languages": [
+            "Python",
+            "Java",
+            "C",
+            "Makefile"
+          ]
+        },
+        {
+          "name": "String Utilities",
+          "link": "https://github.com/Byte-Education/String-Utilities",
+          "desc": "Originally an exercise for a student at the CoderSchool, this contained a number of String Utilities to be implemented to better understand how to parse and work with Strings. These included parsing html tags, replacing some information, and interpreting emails.",
+          "languages": [
+            "TypeScript",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Data Structures",
+          "link": "https://github.com/Byte-Education/Data-Structures",
+          "desc": "Various data structures implemented in a plethora of different programming languages",
+          "languages": [
+            "C",
+            "C++",
+            "C#",
+            "Dart",
+            "Golang",
+            "Java",
+            "Kotlin",
+            "PHP",
+            "Python",
+            "Ruby",
+            "Swift",
+            "TypeScript"
+          ]
+        },
+        {
+          "name": "Python Decorator Tests",
+          "link": "https://github.com/Byte-Education/Python-Decorator-Tests",
+          "desc": "Test Driven Development using Python Decorators. Decorators were created to aid and simplify the development of test cases for various programs. These were then implemented in future Byte Education Python assignments with these test scripts using these decorators.",
+          "languages": [
+            "Python"
+          ]
+        },
+        {
+          "name": "S Plus Site Update",
+          "link": "https://github.com/EdwardRees/splus-site",
+          "desc": "A design revamp of the S Plus website, built on React instead of base HTML",
+          "languages": [
+            "React",
+            "JavaScript",
+            "Firebase"
+          ]
+        }
+      ],
+      "languages": [
+        "JavaScript",
+        "Python",
+        "TypeScript",
+        "Java",
+        "C",
+        "PHP",
+        "Docker",
+        "Makefile",
+        "C++",
+        "C#",
+        "Dart",
+        "Golang",
+        "Kotlin",
+        "Ruby",
+        "Swift"
+      ],
+      "frameworks/libraries": [
+        "React",
+        "React Native",
+        "MongoDB",
+        "ExpressJS",
+        "NodeJS",
+        "Expo"
+      ],
+      "hosting systems": [
+        "AWS",
+        "Firebase"
+      ]
+    },
+    "2021": {
+      "desc": "Refocus towards School and Education; Small projects started and dropped; Revival of Dine n Dip under Booked",
+      "courses": [
+        "CS315: Computer Architecture",
+        "CS345: Programming Language Paradigms"
+      ],
+      "projects": [
+        {
+          "name": "MERN Social Media (unfinished)",
+          "link": "https://github.com/EdwardRees/MERN-Social-Media",
+          "desc": "A simple social media written in TypeScript with the intention to learn full stack development.",
+          "languages": [
+            "TypeScript",
+            "React",
+            "ExpressJS",
+            "NodeJS",
+            "MongoDB"
+          ]
+        },
+        {
+          "name": "TypeScript Code Parser",
+          "link": "https://github.com/EdwardRees/TypeScript-Code-Parser",
+          "desc": "A code parser written in TypeScript. It would read a file and present the code as text. It could parse different languages. The purpose was to be used in a NodeJS server, parsing code and showing it to the user. This was also intended to be built into the Byte Education lessons, as a good portion of code is presented there. In using the Code Parser, code files could be used instead of typing in the code into the website itself. The parser would parse and present the code as text, with only the parser using the file path to return the text. An important note is that it is looking for a .code in the file name.",
+          "languages": [
+            "TypeScript"
+          ]
+        },
+        {
+          "name": "C BlackJack",
+          "link": "https://github.com/EdwardRees/C-Blackjack",
+          "desc": "A simple game of BlackJack developed in C to deepen my understanding of working with C and working with multiple files",
+          "languages": [
+            "C",
+            "Makefile"
+          ]
+        },
+        {
+          "name": "GPA Calculator",
+          "link": "https://docs.google.com/spreadsheets/u/1/d/1auRNAAJHej0toiVa7EnXlHmwMfEN3TOCOeIZot6QSq8/edit?usp=drive_web&ouid=118186419189350548886",
+          "desc": "A Google AppScript to calculate GPA based on a Google Spreadsheet",
+          "languages": [
+            "Google AppScript",
+            "JavaScript"
+          ]
+        },
+        {
+          "name": "Programming Lessons",
+          "link": "https://github.com/EdwardRees/Programming-Lessons",
+          "desc": "New Programming Lessons developed for my online lessons at the CoderSchool. This included the TypeScript Code Parser and was a full stack application, using Docker to help host the whole application",
+          "languages": [
+            "TypeScript",
+            "NodeJS",
+            "React",
+            "ExpressJS",
+            "Docker"
+          ]
+        },
+        {
+          "name": "Booked",
+          "link": "https://github.com/EdwardRees/booked",
+          "desc": "The redevelopment of Dine-n-Dip under a new name and self developed, without the original startup team. The functionality was the same, but considering I gained a lot more experience, I felt that it was more doable to start and try again now. It was a FullStack project, with TypeScript being the foundation for the front and backends.",
+          "languages": [
+            "TypeScript",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "Docker",
+            "React"
+          ]
+        },
+        {
+          "name": "Computer Science Curriculum",
+          "link": "https://github.com/EdwardRees/Computer-Science-Curriculum",
+          "desc": "Originally going to be a massive LaTeX project with various Computer Science Curriculums, this was later moved into a Google Drive Folder. Once the curriculum is done on Google Drive, it will likely be ported back here and combined into a large LaTeX project. While this project looks like it was abandoned, it was rather put on hold until further notice. I'll likely come back to it once I have more time.",
+          "languages": [
+            "Markdown",
+            "LaTeX"
+          ]
+        }
+      ],
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "C",
+        "Markdown",
+        "LaTeX"
+      ],
+      "frameworks/libraries": [
+        "Google AppScript",
+        "ExpressJS",
+        "MongoDB",
+        "React"
+      ],
+      "hosting systems": []
+    },
+    "2022": {
+      "desc": "Last semester of Undergraduate Computer Science studies; Start of Teaching Masters 5th Year",
+      "courses": [
+        "CS333: Introduction to Database Systems",
+        "CS490: Senior Team Project"
+      ],
+      "projects": [
+        {
+          "name": "Base Converters",
+          "link": "https://github.com/EdwardRees/Base-Converters",
+          "desc": "A simple base converting project. It takes a number and a base and converts it into the specified value. The acceptable bases are binary, octal, decimal, hexadecimal, and base 64.",
+          "languages": [
+            "C",
+            "C++",
+            "Python"
+          ]
+        },
+        {
+          "name": "Jekyll Blog",
+          "link": "https://github.com/EdwardRees/edward-rees-blog",
+          "desc": "A blog created using Jekyll, a static site generator built in Ruby using Markdown",
+          "languages": [
+            "Ruby",
+            "Markdown"
+          ]
+        },
+        {
+          "name": "Programming Language Speed Comparison",
+          "link": "https://github.com/EdwardRees/Programming-Language-Speed-Comparison",
+          "desc": "A set of functions and algorithms written in different programming languages to visualize the runtimes of different languages on the same machine. The algorithms are: Hello World, Factorial of 20, Summation of 1000000, 50th Recursive Fibonacci number, 50th Iterative Fibonacci number, Linear Search; Maximum in 1000000, Print Triangle of 100 Elements. The languages are; C, C++, C#, Java, TypeScript, JavaScript, Lua, Python, and Ruby.",
+          "languages": [
+            "C",
+            "C++",
+            "C#",
+            "Java",
+            "TypeScript",
+            "JavaScript",
+            "Lua",
+            "Python",
+            "Ruby"
+          ]
+        },
+        {
+          "name": "React Native Workshop",
+          "link": "https://githubl.com/EdwardRees/React-Native-Workshop",
+          "desc": "Beginner code used to accompany a workshop introducing and getting peers accustomed to how work with React Native.",
+          "languages": [
+            "JavaScript",
+            "React",
+            "React Native"
+          ]
+        },
+        {
+          "name": "Simple To Do Project",
+          "link": "https://github.com/EdwardRees/Simple-Todo-Project",
+          "desc": "A simple full-stack todo project built as a setup for my Senior Team project. It is a PERN project, with PostgreSQL and Sequelize as the ORM, ExpressJS, React, and NodeJS as the engine. There are JavaScript and TypeScript versions, with a UI built in both React and React Native",
+          "languages": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "React Native",
+            "Sequelize",
+            "ExpressJS"
+          ]
+        },
+        {
+          "name": "We're Not Really Strangers (online)",
+          "link": "https://github.com/EdwardRees/wnrs-online",
+          "desc": "An online version of We're Not Really Strangers originally built with the intention of playing in online rooms using SocketIO. This was eventually scraped due to not having enough time to actually develop the idea beyond a concept.",
+          "languages": [
+            "TypeScript",
+            "React",
+            "NodeJS",
+            "ExpressJS",
+            "SocketIO"
+          ]
+        },
+        {
+          "name": "Movie Database",
+          "link": "https://github.com/EdwardRees/Movie-Database",
+          "desc": "A project built in my Databases class. The project reads information from txt files, parses it, creates Database tables, and inserts the information using SQL scripts. The project also uses Python to support the file reading and parsing. The project also contains information around the Database, such as containing various diagrams and write-ups around the project.",
+          "languages": [
+            "Python",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Habit Tracking App",
+          "link": "https://github.com/EdwardRees/habit-tracking-app",
+          "desc": "My Senior Team Project. A Habit Tracking app written in React Native, connected to a PERN backend at https://github.com/EdwardRees/habit-tracking-api. The frontend uses Axios to send requests and parse responses from the NodeJS backend.",
+          "languages": [
+            "JavaScript",
+            "React Native",
+            "Axios"
+          ]
+        },
+        {
+          "name": "Summer Camp Lessons",
+          "link": "https://github.com/EdwardRees/dev.edwardrees.info",
+          "desc": "Lessons I used when teaching over the summer at the CoderSchool. These lessons were for two Introduction to Python summer camps and one Web design summer camp. The projects are hosted on Linode as a static website",
+          "languages": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Python",
+            "Linode",
+            "nginx",
+            "Linux Server (Ubuntu)"
+          ]
+        },
+        {
+          "name": "Self Care Project",
+          "link": "https://github.com/Self-Care-Project/Journal",
+          "desc": "The major self care project I thought about creating during the summer of 2022. The project consists of multiple journal entry types, revolving around developing habits around Self Care. The different journal entry types go as follow: General Journal Entry, Gratitude Journal, Mood Journal, Affirmation, and Self Care Activities. The frontend is built in React, with Vite as the build tool instead of Webpack. It also uses TypeScript as the main language. The backend is developed in NodeJS and ExpressJS, using TypeScript for type safety, Postgres for the Database, and Prisma as the ORM. The project is hosted on a Linode Instance.",
+          "languages": [
+            "Linode",
+            "Linux Server (Ubuntu)",
+            "nginx",
+            "Axios",
+            "React",
+            "Vite",
+            "ExpressJS",
+            "TypeScript",
+            "Prisma",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "name": "PERN Todo List",
+          "link": "https://github.com/EdwardRees/Todo-Project",
+          "desc": "A simple Todo List fullstack project written with the PERN stack (PostgreSQL, Express, React, NodeJS). Additionally, it uses Prisma as the ORM of choice",
+          "languages": [
+            "React",
+            "PostgreSQL",
+            "Prisma",
+            "TypeScript",
+            "NodeJS",
+            "ExpressJS"
+          ]
+        },
+        {
+          "name": "Morse Code Converter App",
+          "link": "https://github.com/EdwardRees/MorseCodeConverter",
+          "desc": "A simple Morse Code Converter written in C#, using WindowsForms to create the UI. This was created initially to learn how to work with WindowsForms and C#. It was also used as a project a student built at the CoderSchool.",
+          "languages": [
+            "C#",
+            "WindowsForms"
+          ]
+        },
+        {
+          "name": "Quote Viewer",
+          "link": "https://github.com/EdwardRees/Quote-Viewer",
+          "desc": "A web version of the Quotes app I created in React Native years ago. I made it so that I could access the Quotes from people anywhere and online, if I didn't have access to my Android phone. It ended up also being hosted on Linode at https://quotes.edwardrees.info.",
+          "languages": [
+            "React",
+            "Axios",
+            "Linode",
+            "Linux Server (Ubuntu)",
+            "nginx",
+            "Docker"
+          ]
+        }
+      ],
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "C",
+        "C++",
+        "Ruby",
+        "Python",
+        "C#",
+        "Docker"
+      ],
+      "frameworks/libraries": [
+        "React",
+        "React Native",
+        "PostgreSQL",
+        "ExpressJS",
+        "Prisma",
+        "Sequelize",
+        "Jekyll",
+        "Qt",
+        "WindowsForms",
+        "Pygame",
+        "Axios",
+        "Vite"
+      ],
+      "hosting systems": [
+        "Linux Server (Ubuntu)",
+        "nginx",
+        "pm2",
+        "Linode"
+      ]
+    },
+    "2023": {
+      "desc": "Last semester of University; Full time teaching",
+      "courses": [],
+      "projects": [
+        {
+          "name": "College Companion",
+          "link": "https://github.com/College-Companion/web",
+          "desc": "A revamp of the College Selector with new features. The College Companion combines the College Selector, the College Acceptance Calculator, and Tour Questions, with new features, such as: a Four Year Plan, a GPA Calculator, and Guiding Conversations Questions around applying and choosing a University. The purpose of this project is to help support students with their entire journey throguh University, starting with their application, ending with their time at University.",
+          "languages": [
+            "TypeScript",
+            "React",
+            "NextJS",
+            "NodeJS",
+            "Supabase",
+            "Linode",
+            "pm2",
+            "nginx"
+          ]
+        },
+        {
+          "name": "Personal Journey",
+          "link": "https://github.com/EdwardRees/Personal-Journey",
+          "desc": "A Web project to parse and present the personal coding journey of mine",
+          "languages": [
+            "React",
+            "NodeJS",
+            "TypeScript",
+            "ExpressJS",
+            "Axios"
+          ]
+        },
+        {
+          "name": "Rust Practice",
+          "link": "#",
+          "desc": "Learning the programming language of Rust",
+          "languages": [
+            "Rust"
+          ]
+        },
+        {
+          "name": "Learning Python Through Projects",
+          "link": "https://github.com/EdwardRees/Learning-Python-Through-Projects",
+          "desc": "A textbook written in Markdown, using mdbook to teach Python using Projects. This may end up being the textbook I use in the future when I eventually teach Python. It's also hosted at python-book.byteeducation.net",
+          "languages": [
+            "Rust",
+            "Markdown",
+            "mdbook",
+            "TOML"
+          ]
+        }
+      ],
+      "languages": [
+        "TypeScript",
+        "Rust",
+        "Markdown"
+      ],
+      "frameworks/libraries": [
+        "React",
+        "NextJS",
+        "NodeJS",
+        "mdbook",
+        "TOML"
+      ],
+      "hosting systems": [
+        "Linux Server (Ubuntu)",
+        "Supabase",
+        "pm2",
+        "nginx"
+      ]
+    }
+  }
+}
