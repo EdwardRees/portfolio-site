@@ -54,8 +54,10 @@ const Experiences = () => {
         "Planned and designed the curriculum for an Introductory Python course.",
         "Developed lectures, quizzes, labs, in-class exercises, and projects for an Introductory Python course.",
         "Held office hours to supplement and support student learning, by re-explaining concepts using various examples to clarify confusing ideas for different students.",
-        "Taught an Introductory Python class of 25 students.",
-        "Implemented Project Based Learning principles to engage students to apply the concepts learned in class."
+        "Taught two Introductory Python classes with over 20 students each",
+        "Implemented Project Based Learning principles to engage students to apply the concepts learned in class.",
+        "Developed an autograder to simplify grading procedures throughout the semester.",
+        "Participated, developed, and implemented more AI Proof assignments to support student learning in a progressively more AI driven society."
       ]}
       link="https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science"
       hidden={
@@ -72,9 +74,13 @@ const Experiences = () => {
             "Managed schedules of 13 coaches and 80+ students",
             "Managed the day-to-day operations of the school",
             "Trained coding coaches in various teaching methods",
-            "Led three summer camps teaching Python and Thunkable",
-            "Coached a student through developing a Desktop Application on Tabacco Awareness using Python for the Congressional App Challenge. The student went on to win for California District 11 in 2023",
-            "Taught after school classes of Scratch and Python with students aged 7-14"
+            "Led four summer camps teaching Python, Thunkable, Scratch, and JavaScript.",
+            "Coached a student through developing a Desktop Application on Tobacco Awareness using Python for the Congressional App Challenge. The student went on to win for California District 11 in 2023",
+            "Taught after school classes of Scratch and Python with students aged 7-14",
+            "Developed an Introductory JavaScript curriculum",
+            "Developed the curriculum for an Introduction to AP Computer Science A bootcamp.",
+            "Taught two students React Native to develop different mobile application projects",
+            "Taught multiple students PySimpleGUI to demonstrate and help them apply their understanding of Python to develop functional User Interfaces"
           ]}
           link="https://www.thecoderschool.com/sanfrancisco/"
           hidden={
