@@ -840,6 +840,75 @@
         "pm2",
         "nginx"
       ]
+    },
+    "2024": {
+      "desc": "Teaching at USF"
+      "courses": [],
+      "projects": [
+        {
+          "name": "College Companion",
+          "link": "https://github.com/College-Companion/web",
+          "desc": "A revamp of the College Selector with new features. The College Companion combines the College Selector, the College Acceptance Calculator, and Tour Questions, with new features, such as: a Four Year Plan, a GPA Calculator, and Guiding Conversations Questions around applying and choosing a University. The purpose of this project is to help support students with their entire journey throguh University, starting with their application, ending with their time at University.",
+          "languages": [
+            "TypeScript",
+            "React",
+            "NextJS",
+            "NodeJS",
+            "Supabase",
+            "pm2",
+            "nginx"
+          ]
+        },
+        {
+          "name": "Personal Journey",
+          "link": "https://github.com/EdwardRees/Personal-Journey",
+          "desc": "A Web project to parse and present the personal coding journey of mine",
+          "languages": [
+            "React",
+            "NodeJS",
+            "TypeScript",
+            "ExpressJS",
+            "Axios"
+          ]
+        },
+        {
+          "name": "Rust Practice",
+          "link": "#",
+          "desc": "Learning the programming language of Rust",
+          "languages": [
+            "Rust"
+          ]
+        },
+        {
+          "name": "Learning Python Through Projects",
+          "link": "https://github.com/EdwardRees/Learning-Python-Through-Projects",
+          "desc": "A textbook written in Markdown, using mdbook to teach Python using Projects. This may end up being the textbook I use in the future when I eventually teach Python. It's also hosted at python-book.byteeducation.net",
+          "languages": [
+            "Rust",
+            "Markdown",
+            "mdbook",
+            "TOML"
+          ]
+        }
+      ],
+      "languages": [
+        "TypeScript",
+        "Rust",
+        "Markdown"
+      ],
+      "frameworks/libraries": [
+        "React",
+        "NextJS",
+        "NodeJS",
+        "mdbook",
+        "TOML"
+      ],
+      "hosting systems": [
+        "Linux Server (Ubuntu)",
+        "Supabase",
+        "pm2",
+        "nginx"
+      ]
     }
   }
 }

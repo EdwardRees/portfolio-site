@@ -57,7 +57,8 @@ const Experiences = () => {
         "Taught two Introductory Python classes with over 20 students each",
         "Implemented Project Based Learning principles to engage students to apply the concepts learned in class.",
         "Developed an autograder to simplify grading procedures throughout the semester.",
-        "Participated, developed, and implemented more AI Proof assignments to support student learning in a progressively more AI driven society."
+        "Participated, developed, and implemented more AI Proof assignments to support student learning in a progressively more AI driven society.",
+        "Planned and developed the curriculum for an Introductory Java course."
       ]}
       link="https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science"
       hidden={
@@ -71,7 +72,7 @@ const Experiences = () => {
           type={ExperienceType.MANAGEMENT}
           period="May 2023-Present"
           duties={[
-            "Managed schedules of 13 coaches and 80+ students",
+            "Managed schedules of multiple coaches and 80+ students",
             "Managed the day-to-day operations of the school",
             "Trained coding coaches in various teaching methods",
             "Led four summer camps teaching Python, Thunkable, Scratch, and JavaScript.",
