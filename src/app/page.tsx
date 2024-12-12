@@ -19,6 +19,7 @@ import {
   faPaintBrush,
   faEnvelope,
   faDiagramProject,
+  faCircleInfo,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
@@ -151,7 +152,7 @@ export default function Home() {
           </div>
         </Section>
         <Section title="What can I do?" id="services">
-          <div className="grid md:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-x-4 gap-y-8 py-3 px-3">
+          <div className="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 gap-x-4 gap-y-8 py-3 px-3">
             <Service
               title="Web Development"
               icon={faListAlt}
@@ -177,11 +178,19 @@ export default function Home() {
               depends on what you want to do. I can help you understand
               any of the programming languages I have experience with."
             />
+          </div>
+          <div className="grid md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-x-4 gap-y-8 py-3 px-3">
             <Service 
               size="3x"
               title="System Design"
               icon={faDiagramProject}
               desc="I can help design the backend system required for a given tech project. This includes suggesting the most ideal and optimum technology stack for a given product to reinforce stability and scalability in the future."
+            />
+            <Service
+              size="3x"
+              title="Career Consultancy"
+              icon={faCircleInfo}
+              desc="I can help with finding a direction to go down in your career. Whether your career is well established and you're having doubts or you're thinking of pivoting and transitioning into a new career, I'm happy to help support you through it."
             />
           </div>
         </Section>
