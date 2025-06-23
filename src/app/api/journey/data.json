@@ -9,7 +9,7 @@
           "name": "First website for Genius Hour",
           "link": "https://github.com/EdwardR5/EdwardRees.github.io/blob/master/static/ghp/original.html",
           "desc": "The first website I ever wrote for Genius Hour in 8th Grade. It was an experience to see what coding actually looked and felt like. Granted this was the first time and before I was really technically literate, I didn't know how to host the website and ended up hosting it on my Computer locally. It was my introduction to HTML, CSS, basic JavaScript, the concept of Programming Languages, and how information is portrayed on the internet.",
-          "langauages": [
+          "languages": [
             "HTML",
             "CSS",
             "JavaScript (basic)"
@@ -185,7 +185,7 @@
         {
           "name": "Programming Tutorials",
           "link": "https://github.com/EdwardRees/programming-tutorials/tree/master",
-          "desc": "A website storing various programming tutorials, with a focus/emphasis on learning programming langauges. This was the start of approaching Computer Science with an Education and teaching angle.",
+          "desc": "A website storing various programming tutorials, with a focus/emphasis on learning programming languages. This was the start of approaching Computer Science with an Education and teaching angle.",
           "languages": [
             "HTML",
             "CSS",
@@ -253,7 +253,7 @@
           "name": "myFlexi",
           "link": "https://github.com/EdwardRees/myFlexi-Project",
           "desc": "An attempt to convert a Swift iOS mobile application built for students at the University of San Francisco into a React Native cross platform mobile application.",
-          "langauges": [
+          "languages": [
             "JavaScript",
             "React Native",
             "Expo"
@@ -673,7 +673,7 @@
         {
           "name": "Summer Camp Lessons",
           "link": "https://github.com/EdwardRees/dev.edwardrees.info",
-          "desc": "Lessons I used when teaching over the summer at the CoderSchool. These lessons were for two Introduction to Python summer camps and one Web design summer camp. The projects are hosted on Linode as a static website",
+          "desc": "Lessons I used when teaching over the summer at the CoderSchool. These lessons were for two Introduction to Python summer camps and one Web design summer camp. The projects were hosted on Linode as a static website",
           "languages": [
             "JavaScript",
             "HTML",
@@ -804,7 +804,6 @@
         },
         {
           "name": "Rust Practice",
-          "link": "#",
           "desc": "Learning the programming language of Rust",
           "languages": [
             "Rust"
@@ -843,12 +842,13 @@
     },
     "2024": {
       "desc": "Teaching at USF",
-      "courses": [],
+      "courses": [
+        "CS110: Introduction to Computer Science I [taught]"
+      ],
       "projects": [
         {
           "name": "College Companion",
-          "link": "https://github.com/College-Companion/web",
-          "desc": "A revamp of the College Selector with new features. The College Companion combines the College Selector, the College Acceptance Calculator, and Tour Questions, with new features, such as: a Four Year Plan, a GPA Calculator, and Guiding Conversations Questions around applying and choosing a University. The purpose of this project is to help support students with their entire journey throguh University, starting with their application, ending with their time at University.",
+          "desc": "A revamp of the College Selector with new features. The College Companion combines the College Selector, the College Acceptance Calculator, and Tour Questions, with new features, such as: a Four Year Plan, a GPA Calculator, and Guiding Conversations Questions around applying and choosing a University. The purpose of this project is to help support students with their entire journey through University, starting with their application, ending with their time at University.",
           "languages": [
             "TypeScript",
             "React",
@@ -861,8 +861,7 @@
         },
         {
           "name": "Personal Journey",
-          "link": "https://github.com/EdwardRees/Personal-Journey",
-          "desc": "A Web project to parse and present the personal coding journey of mine",
+          "desc": "A Web project to parse and present the personal coding journey of mine; converting into this page",
           "languages": [
             "React",
             "NodeJS",
@@ -889,12 +888,27 @@
             "mdbook",
             "TOML"
           ]
+        },
+        {
+          "name": "CS110 Curriculum",
+          "desc": "Created the curriculum for an introduction to Python course at USF. The curriculum employs Project-based learning.",
+          "languages": [
+            "Python"
+          ]
+        },
+        {
+          "name": "Autograder",
+          "desc": "Autograder for my USF courses, written in Python for the CS 110 Introduction to Computer Science course, the autograder compares the repositories of the students' code with testcases.",
+          "languages": [
+            "Python"
+          ]
         }
       ],
       "languages": [
         "TypeScript",
         "Rust",
-        "Markdown"
+        "Markdown",
+        "Python"
       ],
       "frameworks/libraries": [
         "React",
@@ -909,6 +923,71 @@
         "pm2",
         "nginx"
       ]
+    },
+    "2025": {
+      "desc": "Continuing at USF. A year of a lot of curriculum development and creating content for University and CoderSchool students. Some personal projects, but a lot of the projects revolve around curriculum development.",
+      "courses": [
+        "CS111: Foundations of Program Design [taught]"
+      ],
+      "projects": [
+        {
+          "name": "Blog",
+          "desc": "Updated blog code. Replaced the jekyll project with a NextJS, Markdown blog.",
+          "languages": [
+            "NextJS",
+            "React",
+            "TypeScript",
+            "Markdown"
+          ]
+        },
+        {
+          "name": "CS111 Curriculum",
+          "desc": "Curriculum for CS111: Foundations of Program Design. The curriculum utilizes Labor-based grading, Specification-based grading, Project-based learning, and some inquiry-based learning.",
+          "languages": [
+            "Java"
+          ]
+        },
+        {
+          "name": "Simple Authenticated Notes",
+          "desc": "A simple fullstack web app with a React frontend, using react router, context, and reducers. A backend written in Bun, Elysia, and Prisma. Docker is also used for the dev environment",
+          "languages": [
+            "TypeScript",
+            "React",
+            "React Router",
+            "Bun",
+            "Elysia",
+            "Prisma",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "name": "CS111 Course Page",
+          "desc": "Course page for the CS 111 Course Page",
+          "languages": [
+            "TypeScript",
+            "RevealJS",
+            "NextJS",
+            "React",
+            "Markdown"
+          ]
+        }
+      ],
+      "languages": [
+        "Java",
+        "TypeScript",
+        "Markdown",
+        "PostgreSQL"
+      ],
+      "frameworks/libraries": [
+        "NextJS",
+        "RevealJS",
+        "React",
+        "React Router",
+        "Bun",
+        "Elysia",
+        "Prisma"
+      ],
+      "hosting systems": []
     }
   }
 }
