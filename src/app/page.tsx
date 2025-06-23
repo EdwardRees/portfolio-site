@@ -265,19 +265,19 @@ export default function Home() {
         </Section>
         <Section title="Projects" id="projects">
           <div className="grid md:grid-cols-6 xs:grid-cols-2 gap-4 px-2 py-3">
-          <Project
-          name="CS111 Course Page"
-          icon={LibraryIcon} // TODO create an icon for this
-          desc="I created my course page for USF for my 111 students to use. The page uses React and NextJS to provide the core content. Assignments are posted through markdown files, parsed and rendered into the page itself. Slides are created and rendered through Revealjs."
-          tech={["React", "Next", "Revealjs", "Markdown"]}
-          />
-          <Project 
-          name="Simple Notes App"
-          icon={LibraryIcon} // TODO create an icon for this
-          desc="Simple full-stack web app for storing notes. This small project was an example to demonstrate using React as a client/simple frontend, while storing an access token to authenticate the user. The frontend uses axios to communicate with the backend, with react router as the primary routing library. Additionally, Context and Reducers are used to maintain state. The backend is written in TypeScript, with Bun, Elysia, Prisma, and Postgres as the backend. Due to this project being intended as a proof of concept for a student, the state management was meant to be as simple as possible without extra libraries."
-              tech={["React", "Postgres", "Bun", "Elysia"]}
-            />
-
+          {/* <Project */}
+          {/* name="CS111 Course Page" */}
+          {/* icon={LibraryIcon} // TODO create an icon for this */}
+          {/* desc="I created my course page for USF for my 111 students to use. The page uses React and NextJS to provide the core content. Assignments are posted through markdown files, parsed and rendered into the page itself. Slides are created and rendered through Revealjs." */}
+          {/* tech={["React", "Next", "Revealjs", "Markdown"]} */}
+          {/* /> */}
+          {/* <Project  */}
+          {/* name="Simple Notes App" */}
+          {/* icon={LibraryIcon} // TODO create an icon for this */}
+          {/* desc="Simple full-stack web app for storing notes. This small project was an example to demonstrate using React as a client/simple frontend, while storing an access token to authenticate the user. The frontend uses axios to communicate with the backend, with react router as the primary routing library. Additionally, Context and Reducers are used to maintain state. The backend is written in TypeScript, with Bun, Elysia, Prisma, and Postgres as the backend. Due to this project being intended as a proof of concept for a student, the state management was meant to be as simple as possible without extra libraries." */}
+          {/*     tech={["React", "Postgres", "Bun", "Elysia"]} */}
+          {/*   /> */}
+          {/**/}
             <Project
               name="College Selector"
               icon={CollegeSelectorIcon}
