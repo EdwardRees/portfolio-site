@@ -52,13 +52,14 @@ const Experiences = () => {
       period="Jan 2024-Present"
       duties={[
         "Planned and designed the curriculum for an Introductory Python course.",
-        "Developed lectures, quizzes, labs, in-class exercises, and projects for an Introductory Python course.",
+        "Planned and designed the curriculum for an Introductory Java course.",
+        "Developed lectures, quizzes, labs, in-class exercises, and projects for Introductory Python and Java courses.",
         "Held office hours to supplement and support student learning, by re-explaining concepts using various examples to clarify confusing ideas for different students.",
         "Taught two Introductory Python classes with over 20 students each",
+        "Taught two Introductory Java classes with over 20 students each",
         "Implemented Project Based Learning principles to engage students to apply the concepts learned in class.",
         "Developed an autograder to simplify grading procedures throughout the semester.",
-        "Participated, developed, and implemented more AI Proof assignments to support student learning in a progressively more AI driven society.",
-        "Planned and developed the curriculum for an Introductory Java course."
+        "Participated, developed, and implemented more AI Proof assignments to support student learning in a progressively more AI driven society."
       ]}
       link="https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science"
       hidden={

@@ -1,10 +1,10 @@
-import { IconProp, SizeProp } from "@fortawesome/fontawesome-svg-core";
+import { IconDefinition, IconProp, SizeProp } from "@fortawesome/fontawesome-svg-core";
 import { HoverCard, HoverCardTrigger, HoverCardContent } from "../ui";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 type OtherProps = {
   name: string;
   desc: string;
-  icon: IconProp;
+  icon: IconProp|IconDefinition;
   link?: string;
   linkText?: string;
 };

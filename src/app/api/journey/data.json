@@ -1,5 +1,5 @@
 {
-  "purpose": "Track my CS journey since the beginning in 2013. This may be an interactive timeline if I can figure out how to do that lol",
+  "purpose": "Track my CS journey since the beginning in 2013.",
   "timeline": {
     "2013": {
       "desc": "The True Beginning",
@@ -842,7 +842,7 @@
       ]
     },
     "2024": {
-      "desc": "Teaching at USF"
+      "desc": "Teaching at USF",
       "courses": [],
       "projects": [
         {
