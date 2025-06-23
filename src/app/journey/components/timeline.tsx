@@ -10,17 +10,16 @@ const Timeline = () => {
   const [expandedProjects, setExpandedProjects] = useState<any>({});
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string|null>(null);
-  const API_URL = process.env.API_URL || "http://localhost:3000"
   useEffect(() => {
     const fetchJourneyData = async () => {
       try {
         setLoading(true);
-        const response = await axios.get(`${API_URL}/api/journey`);
+        const response = await axios.get(`${location.origin}/api/journey`);
         setTimelineData(response.data);
         setError(null);
       } catch (err) {
         console.error('Error fetching journey data:', err);
-        setError('Failed to load journey data. Please make sure the API server is running on localhost:3000');
+        setError('Unable to fetch data');
       } finally {
         setLoading(false);
       }
