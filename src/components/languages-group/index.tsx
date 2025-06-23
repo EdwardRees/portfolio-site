@@ -131,13 +131,13 @@ const Languages = () => {
         <Language title="Java" proficiency="90% Proficient" image={java} />
         <Language
           title="TypeScript"
-          proficiency="85% Proficient"
+          proficiency="90% Proficient"
           image={typescript}
         />
         <Language title="C" proficiency="65% Proficient" image={c} />
+        <Language title="Rust" proficiency="50% Proficient" image={rust} />
         <Language title="C#" proficiency="Learning" image={csharp} />
         <Language title="C++" proficiency="Learning" image={cpp} />
-        <Language title="Rust" proficiency="Learning" image={rust} />
         <Language title="Go" proficiency="Learning" image={go} />
         <Language title="Swift" proficiency="Learning" image={swift} />
       </Group>
@@ -185,16 +185,16 @@ const Languages = () => {
         }
         className="grid lg:grid-cols-3 md:grid-cols-3 xs:grid-cols-2 sm:grid-cols-2 gap-4"
       >
+        <Language 
+          title="Bun"
+          proficiency="80% Proficient"
+          image={bun}
+          />
         <Language
           title="Express"
           proficiency="75% Proficient"
           image={express}
         />
-        <Language 
-          title="Bun"
-          proficiency="75% Proficient"
-          image={bun}
-          />
         <Language
           title="Supabase"
           proficiency="75% Proficient"

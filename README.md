@@ -1,9 +1,10 @@
 # Personal Website
 
-A redo of my original website but now done in NextJS and TailwindCSS. Will be hosted on Vercel instead of Github Pages.
+A redo of my original website but now done in NextJS and TailwindCSS. Hosted on Vercel instead of Github Pages.
 
 ## Technology Used
 
+- Axios
 - NextJS
 - ReactJS
 - TailwindCSS
@@ -11,4 +12,5 @@ A redo of my original website but now done in NextJS and TailwindCSS. Will be ho
 
 ## Deployment
 
-- Deployed to Vercel at [https://edwardrees-website.vercel.com](https://edwardrees-website.vercel.com)
+- Deployed through Vercel at [https://www.edwardrees.info](https://www.edwardrees.info)
+

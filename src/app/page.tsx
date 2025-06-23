@@ -19,6 +19,7 @@ import {
   faPaintBrush,
   faEnvelope,
   faDiagramProject,
+  faCircleInfo,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
@@ -151,7 +152,7 @@ export default function Home() {
           </div>
         </Section>
         <Section title="What can I do?" id="services">
-          <div className="grid md:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-x-4 gap-y-8 py-3 px-3">
+          <div className="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 gap-x-4 gap-y-8 py-3 px-3">
             <Service
               title="Web Development"
               icon={faListAlt}
@@ -177,11 +178,19 @@ export default function Home() {
               depends on what you want to do. I can help you understand
               any of the programming languages I have experience with."
             />
+          </div>
+          <div className="grid md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-x-4 gap-y-8 py-3 px-3">
             <Service 
               size="3x"
               title="System Design"
               icon={faDiagramProject}
               desc="I can help design the backend system required for a given tech project. This includes suggesting the most ideal and optimum technology stack for a given product to reinforce stability and scalability in the future."
+            />
+            <Service
+              size="3x"
+              title="Career Consultancy"
+              icon={faCircleInfo}
+              desc="I can help with finding a direction to go down in your career. Whether your career is well established and you're having doubts or you're thinking of pivoting and transitioning into a new career, I'm happy to help support you through it."
             />
           </div>
         </Section>
@@ -256,11 +265,23 @@ export default function Home() {
         </Section>
         <Section title="Projects" id="projects">
           <div className="grid md:grid-cols-6 xs:grid-cols-2 gap-4 px-2 py-3">
+          <Project
+          name="CS111 Course Page"
+          icon={LibraryIcon} // TODO create an icon for this
+          desc="I created my course page for USF for my 111 students to use. The page uses React and NextJS to provide the core content. Assignments are posted through markdown files, parsed and rendered into the page itself. Slides are created and rendered through Revealjs."
+          tech={["React", "Next", "Revealjs", "Markdown"]}
+          />
+          <Project 
+          name="Simple Notes App"
+          icon={LibraryIcon} // TODO create an icon for this
+          desc="Simple full-stack web app for storing notes. This small project was an example to demonstrate using React as a client/simple frontend, while storing an access token to authenticate the user. The frontend uses axios to communicate with the backend, with react router as the primary routing library. Additionally, Context and Reducers are used to maintain state. The backend is written in TypeScript, with Bun, Elysia, Prisma, and Postgres as the backend. Due to this project being intended as a proof of concept for a student, the state management was meant to be as simple as possible without extra libraries."
+              tech={["React", "Postgres", "Bun", "Elysia"]}
+            />
+
             <Project
               name="College Selector"
               icon={CollegeSelectorIcon}
               desc="A mobile application that helps students find colleges that fit their needs. This used to be on the App Stores, but has been removed due to a lack of maintenance. This project has been ported and redeveloped in the College Companion project."
-              link="https://www.collegeselector.app"
               tech={["React", "Firebase", "React Native", "Expo"]}
             />
 
@@ -282,7 +303,7 @@ export default function Home() {
               name="Byte Education"
               icon={ByteEducationIcon}
               desc="A website and project designed to developing lesson plans and systems to teaching Computer Science."
-              link="https://www.byteeducation.com"
+              link="https://www.byteeducation.net"
               tech={["React", "HTML", "CSS", "JavaScript"]}
             />
 
@@ -307,6 +328,13 @@ export default function Home() {
 
         <Section title="Support My Friends & Family!" id="support" primary>
           <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-4 ">
+            <SupportingOther
+              name="Tyler Miranda"
+              desc="The tutoring page"
+              icon={faUser}
+              link="https://meresophistry.xyz/"
+              linkText="Tyler Miranda"
+            />
             <SupportingOther
               name="Hunter Macias"
               desc="The personal portfolio for my friend Hunter who does a lot of work in JavaScript and Python."
@@ -404,7 +432,7 @@ export default function Home() {
               </a>
             </div>
             <br />
-            <p>Copyright &copy; Edward Rees 2024</p>
+            <p>Copyright &copy; Edward Rees 2025</p>
           </div>
         </section>
       </div>
