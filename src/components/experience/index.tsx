@@ -115,16 +115,6 @@ const Experience = ({
                           </AccordionContent>
                         </AccordionItem>
                       </Accordion>
-                      // <div key={key} className="flex flex-col items-center justify-center text-center">
-                      //   <p className="text-xl">{key}</p>
-                      //   <ul className="flex flex-col items-center justify-center text-center">
-                      //     {value.map((duty: string) => (
-                      //       <li key={duty} className="text-md">
-                      //         {duty}
-                      //       </li>
-                      //     ))}
-                      //   </ul>
-                      // </div>
                     )
                   )}
             </div>
