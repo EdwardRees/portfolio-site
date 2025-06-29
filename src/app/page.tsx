@@ -343,13 +343,6 @@ export default function Home() {
               linkText="Hunter Macias"
             />
             <SupportingOther
-              name="Kevin Lynch"
-              desc="The personal portfolio for my friend Kevin who uploads his photography."
-              icon={faUser}
-              link="https://kevinlynch.com"
-              linkText="Kevin Lynch"
-            />
-            <SupportingOther
               name="Shikaar Maharaj"
               desc="The Twitch Stream page for my friend Shikaar who streams various games from time to time"
               icon={faTwitch}
