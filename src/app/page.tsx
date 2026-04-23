@@ -28,7 +28,8 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
-import portfolio from "@/img/portfolio.png";
+// import portfolio from "@/img/portfolio.png";
+import portfolio from "@/img/Updated-Portfolio.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import CollegeSelectorIcon from "@/img/projects/collegeselector.svg";
@@ -313,13 +314,12 @@ export default function Home() {
               desc="A web application to support students through their University journey, from initially looking at Universities, to applying to Universities, to supporting their education with a built-in four year plan and gpa calculator."
               link="https://www.collegecompanion.app"
               tech={[
-                "React",
+                "SvelteKit",
+                "TypeScript";
                 "Tailwind",
                 "Supabase",
-                "NextJS",
-                "Vercel",
+                "Netlify",
                 "Docker",
-                "Redis",
                 "PostgreSQL",
               ]}
             />
@@ -425,7 +425,7 @@ export default function Home() {
               </a>
             </div>
             <br />
-            <p>Copyright &copy; Edward Rees 2025</p>
+            <p>Copyright &copy; Edward Rees 2026</p>
           </div>
         </section>
       </div>

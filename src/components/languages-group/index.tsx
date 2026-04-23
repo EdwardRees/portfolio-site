@@ -26,6 +26,7 @@ import bootstrap from "@/img/languages/Boostrap_logo.png";
 import react from "@/img/languages/react.png";
 import tailwind from "@/img/languages/tailwindcss.png";
 import nextjs from "@/img/languages/nextjs.png";
+import svelte from '@/img/languages/svelte.png';
 
 import flutter from "@/img/languages/flutter.png";
 import android from "@/img/languages/android.png";
@@ -134,12 +135,12 @@ const Languages = () => {
           proficiency="90% Proficient"
           image={typescript}
         />
-        <Language title="C" proficiency="65% Proficient" image={c} />
-        <Language title="Rust" proficiency="50% Proficient" image={rust} />
+        <Language title="C" proficiency="60% Proficient" image={c} />
+        <Language title="Rust" proficiency="60% Proficient" image={rust} />
+        <Language title="Swift" proficiency="Learning" image={swift} />
         <Language title="C#" proficiency="Learning" image={csharp} />
         <Language title="C++" proficiency="Learning" image={cpp} />
         <Language title="Go" proficiency="Learning" image={go} />
-        <Language title="Swift" proficiency="Learning" image={swift} />
       </Group>
       <Group
         title="Web Frameworks & Libraries"
@@ -147,6 +148,7 @@ const Languages = () => {
           languageFilter !== LanguageFilterType.ALL &&
           languageFilter !== LanguageFilterType.FRAMEWORK
         }
+        className="grid lg:grid-cols-5 md:grid-cols-5 xs:grid-cols-2 sm:grid-cols-2 gap-4"
       >
         <Language
           title="Bootstrap"
@@ -160,6 +162,7 @@ const Languages = () => {
           image={tailwind}
         />
         <Language title="Next.js" proficiency="85% Proficient" image={nextjs} />
+        <Language title="Svelte" proficiency="75% Proficient" image={svelte} />
       </Group>
       <Group
         title="Mobile Development"
@@ -173,9 +176,9 @@ const Languages = () => {
           proficiency="90% Proficient"
           image={react}
         />
-        <Language title="Flutter" proficiency="Learning" image={flutter} />
-        <Language title="Android" proficiency="Learning" image={android} />
         <Language title="iOS" proficiency="Learning" image={ios} />
+        <Language title="Android" proficiency="Learning" image={android} />
+        <Language title="Flutter" proficiency="Learning" image={flutter} />
       </Group>
       <Group
         title="Backend Libraries / Technologies"

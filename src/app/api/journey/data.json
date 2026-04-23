@@ -988,6 +988,76 @@
         "Prisma"
       ],
       "hosting systems": []
+    },
+    "2026": {
+      "desc": "Continuing to teach at USF. Starting my Doctorate of Education in the Fall around Learning & Instruction. Personal projects continuing.",
+      "courses": [
+        "CS111: Foundations of Program Design [taught]",
+        "CS107: Creative Coding and Generative AI [taught]"
+      ],
+      "projects": [
+        {
+          "name": "Reckon",
+          "desc": "Mobile Application starting in the Spring to learn SwiftUI, Rust, and general FFI. Math games written in SwiftUI, with the solving logic happening in Rust",
+          "languages": [
+            "Rust",
+            "Swift",
+            "SwiftUI"
+          ]
+        },
+        {
+          "name": "CS107 Curriculum",
+          "desc": "Curriculum for CS107: Creative Coding and Generative AI. The course continues my Labor-based Grading, Specification-based Grading, Project-based Learning. The course focuses on 4 different sections: Thunkable (Mobile App Dev with block coding), Web Design with HTML and CSS, Generative AI and how to use them responsibly, and lastly, introductory Python.",
+          "languages": [
+            "Thunkable",
+            "HTML",
+            "CSS",
+            "Generative AI",
+            "Python"
+          ]
+        },
+        {
+          "name": "College Companion",
+          "desc": "The completion of the College Companion, finally! A tool built for University students throughout their journey from research/applications to attending University.",
+          "link": "https://www.collegecompanion.app",
+          "languages": [
+            "TypeScript",
+            "Svelte",
+            "SvelteKit",
+            "Supabase",
+            "Netlify"
+          ]
+        },
+        {
+          "name": "College Companion Blog",
+          "desc": "Accompanying Blog to the College Companion",
+          "link": "https://blog.collegecompanion.app",
+          "languages": [
+            "TypeScript",
+            "Astro",
+            "Markdown",
+            "Netlify"
+          ]
+        }
+      ],
+      "languages": [
+        "TypeScript",
+        "Swift",
+        "Rust",
+        "Markdown",
+        "Python",
+        "HTML",
+        "CSS",
+        "Thunkable"
+      ],
+      "frameworks/libraries": [
+        "Svelte",
+        "Astro",
+        "SwiftUI"
+      ],
+      "hosting systems": [
+        "Netlify"
+      ]
     }
   }
 }

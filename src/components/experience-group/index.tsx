@@ -56,7 +56,8 @@ const Experiences = () => {
         "Developed lectures, quizzes, labs, in-class exercises, and projects for Introductory Python and Java courses.",
         "Held office hours to supplement and support student learning, by re-explaining concepts using various examples to clarify confusing ideas for different students.",
         "Taught two Introductory Python classes with over 20 students each",
-        "Taught two Introductory Java classes with over 20 students each",
+        "Taught four Introductory Java classes with over 20 students each",
+        "Taught an Introductory to Coding course targetted for non-majors with over 20 students",
         "Implemented Project Based Learning principles to engage students to apply the concepts learned in class.",
         "Developed an autograder to simplify grading procedures throughout the semester.",
         "Participated, developed, and implemented more AI Proof assignments to support student learning in a progressively more AI driven society."
